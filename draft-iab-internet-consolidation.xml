@@ -68,6 +68,13 @@
       </address>
     </author>
     
+    <author fullname="Jeff Tantsura" initials="J." surname="Tantsura">
+      <organization>Futurewei, Future Networks</organization>
+      <address>
+        <email>jefftant.ietf@gmail.com</email>
+      </address>
+    </author>
+
     <date month="May" year="2018" />
 
     <area>Internet</area>
@@ -76,7 +83,14 @@
 
     <abstract>
 
-      <t></t>
+      <t>Is Internet traffic consolidating, i.e., moving towards a
+      larger fraction of traffic involving a small set of large
+      content providers, social networks, and content delivery
+      platforms? It certainly appears so, though more research on this
+      topic would be welcome. But what might this mean for the
+      Internet? And are our technology and architecture choices
+      affecting some of these trends? Would different technology
+      change the trends in some fashion?</t>
 
     </abstract>
   </front>
@@ -85,47 +99,140 @@
 
     <section title="Introduction">
 
-<t>One of the tasks of the Internet Architecture Board is to look at trends affecting the Internet. Recently, we've been discussing traffic flows and popular applications on the Internet, and the role of smaller vs. larger players in the Internet ecosystem.</t>
+      <t>One of the tasks of the Internet Architecture Board is to
+      look at trends affecting the Internet. Recently, we've been
+      discussing traffic flows and popular applications on the
+      Internet, and the role of smaller vs. larger players in the
+      Internet ecosystem.</t>
 
-<t>Is Internet traffic consolidating, i.e., moving towards a larger fraction of traffic involving a small set of large content providers, social networks, and content delivery platforms? It certainly appears so, though more research on this topic would be welcome. But what might this mean for the Internet? And are our technology and architecture choices affecting some of these trends? Would different technology change the trends in some fashion?</t>
+      <t>Is Internet traffic consolidating, i.e., moving towards a
+      larger fraction of traffic involving a small set of large
+      content providers, social networks, and content delivery
+      platforms? It certainly appears so, though more research on this
+      topic would be welcome. But what might this mean for the
+      Internet? And are our technology and architecture choices
+      affecting some of these trends? Would different technology
+      change the trends in some fashion?</t>
 
-<t>Of course there are many different areas where consolidation might occur. For example, provision of content and services is observed to concentrate in the hands of a few entities; likewise, ISP services often achieve better efficiency at scale. Even operating systems, Web browsers and other tools experience this kind of tension, with too many or too few choices creating different kinds of problems. We all probably recognise at least some forms of these trends. In general, an efficient market such as the Internet tends to enable winners to take large market shares.</t>
 
-<t>The IAB's remit is to focus on technology, but of course we also want to invite input on the implications and externalities of those arrangements. Technology affects economics and vice versa. The Internet technology community continues to make decisions that have ramifications on Internet systems, just as we are subject to forces that affect them: the consolidation trend also raises relevant and interesting technical and architectural questions. </t>
+      <t>The IAB's remit is to focus on technology, but of course we
+      also want to invite input on the implications and externalities
+      of those arrangements. Technology affects economics and vice
+      versa. The Internet technology community continues to make
+      decisions that have ramifications on Internet systems, just as
+      we are subject to forces that affect them: the consolidation
+      trend also raises relevant and interesting technical and
+      architectural questions. </t>
 
-<t>For instance, a year ago we talked about large-scale denial-of-service attacks, and how various entities can deal with them. While the largest attacks affect all players (see, for instance, the Dyn attacks in October 2016), it is also true that large cloud- and content delivery providers can better deal with such attacks due to their scale. This is one reason among many that drives many network services to such providers. Another reason is the drive towards lower latency services, which can be best provided through globally distributed data centers.</t>
+      <t>For instance, a year ago we talked about large-scale
+      denial-of-service attacks, and how various entities can deal
+      with them. While the largest attacks affect all players (see,
+      for instance, the Dyn attacks in October 2016), it is also true
+      that large cloud- and content delivery providers can better deal
+      with such attacks due to their scale. This is one reason among
+      many that drives many network services to such
+      providers. Another reason is the drive towards lower latency
+      services, which can be best provided through globally
+      distributed data centers.</t>
 
-<t>As technologists, one question we have is whether there are changes in technology that would help reduce technically-driven large-player advantages. This would lead to lower barriers to entry, more entities able to provide any particular service on the Internet, less dependence on a few players, and more choices and greater resilience for the network as a whole. </t>
+      <t>As technologists, one question we have is whether there are
+      changes in technology that would help reduce technically-driven
+      large-player advantages. This would lead to lower barriers to
+      entry, more entities able to provide any particular service on
+      the Internet, less dependence on a few players, and more choices
+      and greater resilience for the network as a whole. </t>
 
-<t>Of course, it may well be that technology improvements are hard to come by. For instance:<list style="symbols">
+      <t>Of course, it may well be that technology improvements are hard to
+      come by. For instance:<list style="symbols">
 
-<t>Providing distributed, low-delay services seems like something that naturally fits larger entities better than small.</t>
+      <t>Providing distributed, low-delay services seems like
+      something that naturally fits larger entities better than
+      small.</t>
 
-<t>Some technical issues may appear more suited for improvements, but have historically not been easy to solve, such as spam. Today, it is becoming increasingly difficult to run your own mail services, essentially forcing many organisations and individuals to employ larger providers. The issues relate directly to size of entities; no one can afford to disconnect from the largest providers. But as a small entity, there is little leverage to convince peer entities or various supporting white/blacklist entities to deal with you properly.</t>
-</list></t>
+      <t>Some technical issues may appear more suited for
+      improvements, but have historically not been easy to solve, such
+      as spam. Today, it is becoming increasingly difficult to run
+      your own mail services, essentially forcing many organisations
+      and individuals to employ larger providers. The issues relate
+      directly to size of entities; no one can afford to disconnect
+      from the largest providers. But as a small entity, there is
+      little leverage to convince peer entities or various supporting
+      white/blacklist entities to deal with you properly.</t>
 
-<t>Nevertheless, recognising the risks of consolidation in both current and proposed future technologies is the first step in proactively avoiding those risks where possible.</t>
+      </list></t>
 
-<t>One avenue where further IETF work would be beneficial is better support for federation, which would enable entities (be they large or small) to work together to provide global services.
+      <t>Nevertheless, recognising the risks of consolidation in both
+      current and proposed future technologies is the first step in
+      proactively avoiding those risks where possible.</t>
 
-<t>Another big question is whether there are assumptions about the Internet architecture that no longer hold in a world where larger, more centralised entities provide big parts of the Internet service? If the world changes, the Internet and its technology/architecture may have to match those changes.
+      <t>One avenue where further IETF work would be beneficial is
+      better support for federation, which would enable entities (be
+      they large or small) to work together to provide global
+      services.</t>
 
-<t>One example of this is that more and more content is becoming available locally, from a content delivery or provider function directly on your own ISP's network. This trend seems strong, and eventually most of the content will be delivered this way, reducing the role that global IP connections across the Internet play. By some metrics this has already happened; what practical - positive or negative - impacts might this have on the Internet technology?
+      <t>Another big question is whether there are assumptions about
+      the Internet architecture that no longer hold in a world where
+      larger, more centralised entities provide big parts of the
+      Internet service? If the world changes, the Internet and its
+      technology/architecture may have to match those changes.</t>
 
-<t>Changes in business landscape may also affect standards work and processes. Small sets of significant players can drive standards work faster, but at the same time the larger entities are not as dependent on standardised solutions as smaller ones would be. 
+      <t>One example of this is that more and more content is becoming
+      available locally, from a content delivery or provider function
+      directly on your own ISP's network. This trend seems strong, and
+      eventually most of the content will be delivered this way,
+      reducing the role that global IP connections across the Internet
+      play. By some metrics this has already happened; what practical
+      - positive or negative - impacts might this have on the Internet
+      technology?</t>
 
-<t>What research on this topic should be driven forward? What IETF topics that should be pursued to address some of these questions?<list style="empty">
+      <t>Changes in business landscape may also affect standards work
+      and processes. Small sets of significant players can drive
+      standards work faster, but at the same time the larger entities
+      are not as dependent on standardised solutions as smaller ones
+      would be.</t>
 
-<t>Note: If you are interested on this or other architecture-related topics, please subscribe to the IAB architecture-discuss mailing list as one forum for discussion.</t>
-</list></t>
+      <t>What research on this topic should be driven forward? What
+      IETF topics that should be pursued to address some of these
+      questions?<list style="empty">
 
+      <t>Note: If you are interested on this or other
+      architecture-related topics, please subscribe to the IAB
+      architecture-discuss mailing list as one forum for
+      discussion.</t></list></t>
 
     </section>
 
-    <section title="">
-
+    <section title="Consolidation">
+      <t>Of course there are many different areas where consolidation
+      might occur. For example, provision of content and services is
+      observed to concentrate in the hands of a few entities;
+      likewise, ISP services often achieve better efficiency at
+      scale. Even operating systems, Web browsers and other tools
+      experience this kind of tension, with too many or too few
+      choices creating different kinds of problems. We all probably
+      recognise at least some forms of these trends. In general, an
+      efficient market such as the Internet tends to enable winners to
+      take large market shares.</t>
     </section>
 
+    <section title="Choke Points">
+    </section>
+
+    <section title="Factors Leading to Consolidation">
+    </section>
+    
+    <section title="Architectural Considerations of Consolidation">
+    </section>
+    
+    <section title="Call for New Work">
+      <section title="Understanding Assumptions about the Internet">
+      </section>
+      <section title="Technology to Alleviate Advantages of Large-Scale Players">
+      </section>
+      <section title="Research on State of the Internet">
+      </section>
+    </section>
+    
     <section anchor="ack" title="Acknowledgements">
 
       <t>The authors would like to thank other IAB members
