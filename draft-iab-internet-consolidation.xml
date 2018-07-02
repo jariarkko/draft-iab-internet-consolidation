@@ -131,8 +131,6 @@
 
     </section>
 
-    <!-- section title="Choke Points" -->
-
     <section anchor="factors" title="Consolidation">
 
       <t>In general, an efficient market such as the Internet tends to
@@ -143,7 +141,7 @@
       provisioning of content and services, social media, or cloud
       systems; likewise, ISP services often achieve better efficiency
       at scale. Similar effects can also be seen with operating
-      systems, Web browsers and other tools.</t>
+      systems, Web browsers, application stores, and other tools.</t>
 
       <t>At the same time, of course, the Internet allows plenty of
       choice both in these and other areas. Too many or too few
@@ -155,22 +153,88 @@
 	and observations down a bit further. In particular,
 	it is useful to distinguish market or economic factors
 	from technical factors.</t>
+
+	<section title="Economic Factors">
+	  
+	  <t>The primary economic factors relate to scale, network
+	  effects, and lack of barriers for serving larger set of
+	  customers. The scaling benefits are natural for many types
+	  of businesses. And many Internet-based businesses can
+	  potentially serve a very large customer base, as the cost of
+	  replicating and delivering their service to new customers or
+	  areas is small.</t>
 	
+	  <t>The network effect, however, has a potentially even more
+	  pronounced impact. The network effect means that each
+	  additional user in a network adds to the value of the
+	  network for all users in the network. As a result, the value
+	  of services provided by a large provider can be bigger than
+	  the value of those provided by a smaller provider.</t>
+
+	  <t>There is an important distinction between different
+	  applications of the network effect, however. Consider e-mail
+	  and a social media application, for instance. For e-mail,
+	  interoperability between different domains and servers
+	  allows anyone to use email with each other, increasing the
+	  value of the e-mail application. However, most popular
+	  social media applications are closed systems, where there is
+	  no interoperability for the application with other
+	  systems. As a result, the network effects acrue to the large
+	  individual social media systems rather than the users of any
+	  system as in e-mail.</t>
+
+	  <t>One of the fundamental design principles of today's
+	  Internet was "permissionless innovation", the idea that a
+	  network could be simple but still powerful enough that
+	  essentially any application could be built on top of it,
+	  without a need to arrange any special support from anyone
+	  else for the application. This is what enables the
+	  end-to-end principle to work, and allows free development of
+	  innovative applications over a common network.</t>
 	
-      <t>For instance, in recent years we have talked a lot about
-      large-scale denial-of-service attacks, and how various entities
-      can deal with them. While the largest attacks affect all players
-      (see, for instance, the Dyn attacks in October 2016), it is also
-      true that large cloud- and content delivery providers can better
-      deal with such attacks due to their scale. This is one reason
-      among many that drives many network services to such
-      providers. Another reason is the drive towards lower latency
-      services, which can be best provided through globally
-      distributed data centers.</t>
+	  <t>There is an interesting contradiction in the kinds of
+	  openness and standards that are needed for the network and
+	  the applications. Once the network is powerful enough, it
+	  becomes possible to build complex applications that do not
+	  need to be similarly open or standardised. We call this the
+	  Permissionless Completeness Theorem.</t>
+	
+        </section>
+
+	<section title="Fundamental Factors">
+
+	  <t>Another class of factors relates to fundamental issues,
+	  effects that are inherent to the services that are being
+	  provided.</t>
+	  
+	  <t>One example of such factors is speed of light;
+	  low-latency services can fundamentally only be provided
+	  through globally distributed data centers. These are often
+	  provided built by large organisations, although
+	  collaborative and data center or cloud computing service
+	  approaches also exist.</t>
+
+	  <t>A similar issue has arisen in recent years around
+	  large-scale denial-of-service attacks, and how various
+	  entities can deal with them. While the largest attacks
+	  affect all players (see, for instance, the Dyn attacks in
+	  October 2016), it is also true that large cloud- and content
+	  delivery providers can better deal with such attacks due to
+	  their scale. This is one reason that attracts many
+	  network services to such providers.</t>
+	  
+	</section>
+	
+	<section title="Technology Factors">
+
+	  <t>	  AI, ML
+	  </t>
+
+	</section>
+	
       </section>
+      
     </section>
-    
-    <!-- section title="Architectural Considerations of Consolidation" -->
     
     <section anchor="actions" title="Call for New Work">
       <section title="Understanding Assumptions about the Internet">
