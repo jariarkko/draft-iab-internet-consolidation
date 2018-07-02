@@ -266,6 +266,47 @@
 	  play. By some metrics this has already happened; what practical
 	  - positive or negative - impacts might this have on the Internet
 	  technology?</t>
+
+	  <t>There are also security issues, and tradeoffs in
+	  centralization vs. distribution vs. security. The large
+	  entities are generally better equipped to move to most
+	  recent and most secure technology. For instance, The
+	  traditional DNS protocol stack shows signs of aging, but due
+	  to legacy of deployed systems, it is difficult to evolve
+	  it. However, there has been a lot of interest in the area of
+	  protecting the privacy of DNS queries at the IETF DPRIVE
+	  working group, or using web based tools (HTTP, TLS, etc) to
+	  transfer DNS information (at the IETF DOH working
+	  group).</t>
+
+	  <t>Modern web-based tools could potentially offer much
+	  more flexibility, efficiency and protection from on-the-path
+	  inspection or changes. These tools are also easily deployed
+	  in existing systems, browsers and can pass current
+	  firewalls. At the same time, we see a trend towards the use
+	  of common DNS resolver services in the global Internet (such
+	  as Cloudflare's 1.1.1.1 or Google's 8.8.8.8). Evolving the
+	  services or protocols offered by these centralised services
+	  is also relatively easy, particularly if the provider of
+	  these services at the same time can affect the capabilities
+	  of large numbers of client devices (e.g., Android mobile
+	  phones).</t>
+
+	  <t>Taken together, this can result in faster evolution,
+	  better security against on-the-path attackers, and overall
+	  improved DNS service for end users. However, it is also
+	  useful to step back and consider the overall security
+	  effects of these developments. Two contradictory factors are
+	  at play. First, it is beneficial to reduce the number of
+	  parties that have access to data, e.g., via encrypting
+	  traffic. But second, a change that replaces information or
+	  service from a distributed network of providers to a
+	  smaller, centralised set of providers does have some
+	  downsides. In particular, it can create high value targets
+	  for attackers or intelligence agencies to go after. It would
+	  be more difficult to gather information from many different
+	  ISP resolvers than to serve a request one entity that
+	  provides these services for large number of users.</t>
 	  
 	</section>
 	
@@ -285,7 +326,7 @@
 	
       </section>
       
-      <section title="Technology to Alleviate Advantages of Large-Scale Players">
+      <section title="Technology to Alleviate Large-Scale Advantages">
 
 	<t>It appears that level the playing field for new entrants or
 	small players brings potential benefits, and allows new
@@ -308,20 +349,17 @@
 	
       </section>
       
-      <section title="Research on State of the Internet">
-	
-	<t>Changes in business landscape may also affect standards work
-	and processes. Small sets of significant players can drive
-	standards work faster, but at the same time the larger entities
-	are not as dependent on standardised solutions as smaller ones
-	would be.</t>
+      <section title="Research">
 
-	<t>This would lead to lower barriers to entry, more entities
-	able to provide any particular service on the Internet, less
-	dependence on a few players, and more choices and greater
-	resilience for the network as a whole.</t>
-      
-	<t>What research on this topic should be driven forward?</t>
+	<t>More work is needed to measure the level centralization or
+	consolidation in various aspects of the Internet, from
+	Internet traffic flows to economics.</t>
+
+	<t>Research on distributed solutions to various Internet
+	issues is also welcome.</t>
+	
+	<t>What other research on this topic should be driven
+	forward?</t>
       
       </section>
     </section>
