@@ -12,7 +12,7 @@
 <?rfc sortrefs="yes" ?>
 <?rfc compact="yes" ?>
 <?rfc subcompact="no" ?>
-<rfc category="info" docName="draft-iab-internet-consolidation-00" ipr="trust200902">
+<rfc category="info" docName="draft-arkko-iab-internet-consolidation-00" ipr="trust200902">
 
   <front>
 
@@ -25,46 +25,40 @@
       <address>
         <postal>
           <street></street>
-
           <city>Kauniainen</city>
-
           <region></region>
-
           <code>02700</code>
-
           <country>Finland</country>
         </postal>
-
         <email>jari.arkko@piuha.net</email>
 
       </address>
     </author>
     
     <author fullname="Brian Trammell" initials="B." surname="Trammell">
-      <organization>...</organization>
+      <organization>ETH Zurich</organization>
       <address>
         <email>ietf@trammell.ch</email>
       </address>
     </author>
     
     <author fullname="Mark Nottingham" initials="M." surname="Nottingham">
-      <organization>...</organization>
       <address>
         <email>mnot@mnot.net</email>
       </address>
     </author>
     
     <author fullname="Christian Huitema" initials="C." surname="Huitema">
-      <organization>...</organization>
+      <organization>Private Octopus Inc.</organization>
       <address>
-        <email>...</email>
+        <email>huitema@huitema.net</email>
       </address>
     </author>
     
     <author fullname="Martin Thomson" initials="M." surname="Thomson">
-      <organization>...</organization>
+      <organization>Mozilla</organization>
       <address>
-        <email>...</email>
+        <email>martin.thomson@gmail.com</email>
       </address>
     </author>
     
