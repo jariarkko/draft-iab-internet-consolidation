@@ -227,9 +227,46 @@
 	
 	<section title="Technology Factors">
 
-	  <t>	  AI, ML
-	  </t>
+	  <t>One of the key questions is whether we are seeing
+	  developments that are driven by economic factors or whether
+	  fundamental reasons or lack available technology drives
+	  particular models. For instance, centralised solutions
+	  might desirable due to business incentives, or they might be
+	  necessary because there is no distributed, collaborative
+	  solution.</t>
+	  
+	  <t>For instance, some technical issues have historically not
+	  been easy to solve, such as e-mail spam, which has lead to
+	  reliance on non-technical solutions. Today, it is becoming
+	  increasingly difficult to run your own mail services,
+	  essentially forcing many organisations and individuals to
+	  employ larger providers. The issues relate directly to size
+	  of entities; no one can afford to disconnect from the
+	  largest providers. But as a small entity, there is little
+	  leverage to convince peer entities or various supporting
+	  white/blacklist entities to deal with you properly.</t>
 
+	  <t>Many Internet services are based on gathering data about
+	  users, and using that data for, for instance, targeted
+	  advertisements. More data from more users makes it possible
+	  to run a service more accurately or with better results;
+	  here again scale brings advantages.</t>
+
+	  <t>These advantages are only getting larger with the advent
+	  AI- and machine learning -based technologies. The more users
+	  a service has, the more data is available for training
+	  machine learning models, and the better the service becomes,
+	  bringing again more users.</t>
+	  
+	  <t>A more current trend is that more and more content is becoming
+	  available locally, from a content delivery or provider function
+	  directly on your own ISP's network. This trend seems strong, and
+	  eventually most of the content will be delivered this way,
+	  reducing the role that global IP connections across the Internet
+	  play. By some metrics this has already happened; what practical
+	  - positive or negative - impacts might this have on the Internet
+	  technology?</t>
+	  
 	</section>
 	
       </section>
@@ -237,69 +274,54 @@
     </section>
     
     <section anchor="actions" title="Call for New Work">
-      <section title="Understanding Assumptions about the Internet">
-      <t>Another big question is whether there are assumptions about
-      the Internet architecture that no longer hold in a world where
-      larger, more centralised entities provide big parts of the
-      Internet service? If the world changes, the Internet and its
-      technology/architecture may have to match those changes.</t>
-
+      
+      <section title="Understanding Assumptions">
+	
+	<t>Are there assumptions about the Internet architecture that
+	no longer hold in a world where larger, more centralised
+	entities provide big parts of the Internet service? If the
+	world changes, the Internet and its technology/architecture
+	may have to match those changes.</t>
+	
       </section>
+      
       <section title="Technology to Alleviate Advantages of Large-Scale Players">
 
+	<t>It appears that level the playing field for new entrants or
+	small players brings potential benefits, and allows new
+	innovation solutions to grow large. Are there technical
+	solutions that are missing today?</t>
+	
 	<t>Of course, it may well be that technology improvements are
-      hard to come by. For instance:<list style="symbols">
+	hard to come by. Nevertheless, recognising the risks of
+	consolidation in both current and proposed future technologies
+	is the first step in proactively avoiding those risks where
+	possible.</t>
 
-      <t>Providing distributed, low-delay services seems like
-      something that naturally fits larger entities better than
-      small.</t>
+	<t>One avenue where further IETF work would be beneficial is
+	better support for federation, which would enable entities (be
+	they large or small) to work together to provide global
+	services.</t>
 
-      <t>Some technical issues may appear more suited for
-      improvements, but have historically not been easy to solve, such
-      as spam. Today, it is becoming increasingly difficult to run
-      your own mail services, essentially forcing many organisations
-      and individuals to employ larger providers. The issues relate
-      directly to size of entities; no one can afford to disconnect
-      from the largest providers. But as a small entity, there is
-      little leverage to convince peer entities or various supporting
-      white/blacklist entities to deal with you properly.</t>
-
-      </list></t>
-
-      <t>Nevertheless, recognising the risks of consolidation in both
-      current and proposed future technologies is the first step in
-      proactively avoiding those risks where possible.</t>
-
-      <t>One avenue where further IETF work would be beneficial is
-      better support for federation, which would enable entities (be
-      they large or small) to work together to provide global
-      services.</t>
-
+	<t>What IETF topics that should be pursued to address some of
+	the issues around consolidation?</t>
+	
       </section>
-      <section title="Research on State of the Internet">
-      <t>One example of this is that more and more content is becoming
-      available locally, from a content delivery or provider function
-      directly on your own ISP's network. This trend seems strong, and
-      eventually most of the content will be delivered this way,
-      reducing the role that global IP connections across the Internet
-      play. By some metrics this has already happened; what practical
-      - positive or negative - impacts might this have on the Internet
-      technology?</t>
-
-      <t>Changes in business landscape may also affect standards work
-      and processes. Small sets of significant players can drive
-      standards work faster, but at the same time the larger entities
-      are not as dependent on standardised solutions as smaller ones
-      would be.</t>
-
-      <t>What research on this topic should be driven forward? What
-      IETF topics that should be pursued to address some of these
-      questions?</t>
       
-      <t>This would lead to lower barriers to
-      entry, more entities able to provide any particular service on
-      the Internet, less dependence on a few players, and more choices
-      and greater resilience for the network as a whole.</t>
+      <section title="Research on State of the Internet">
+	
+	<t>Changes in business landscape may also affect standards work
+	and processes. Small sets of significant players can drive
+	standards work faster, but at the same time the larger entities
+	are not as dependent on standardised solutions as smaller ones
+	would be.</t>
+
+	<t>This would lead to lower barriers to entry, more entities
+	able to provide any particular service on the Internet, less
+	dependence on a few players, and more choices and greater
+	resilience for the network as a whole.</t>
+      
+	<t>What research on this topic should be driven forward?</t>
       
       </section>
     </section>
@@ -314,9 +336,10 @@
     </section>
     <section anchor="ack" title="Acknowledgements">
 
-      <t>The authors would like to thank IAB members and many others
-      for interesting discussions in this problem space.</t>
-
+      <t>The authors would like to thank IAB members, Geoff Huston,
+      Gonzalo Camarillo, Olaf Kolkman, and many others for interesting
+      discussions in this problem space.</t>
+      
     </section>
 
   </middle>
