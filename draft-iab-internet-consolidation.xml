@@ -363,7 +363,23 @@
       
       </section>
     </section>
-    
+	  
+    <section title="Topics to write about further">
+	    <t>What Jari and Brian talked about in 
+		    Montreal in July 2018. The following items may be useful avenues for
+		    further thinking about this topic, but could also be complete red herrings:
+	    <list style="symbols">
+		    <t>The fundamental things we can do about consolidation 
+			 are either (1) distributed architectures (not mentioning the b word!)
+			 (2) regulation or political solutions or (3) give up.</t>
+		    <t>Prefer not to see regulation...</t>   
+		    <t>But blockchain is not workable/doesn't deliver the right qualities, and distribution is hard</t>   
+		    <t>Even if we succeed in creation a distributed/federated architecture, is that helping only the players (small vs. large), not really individual Internet users whos still have to deal with either a large consolidated company or large federated union of companies</t>   
+		    <t></t>   
+		    <t>A "third party overseer" role might be useful in IOT systems.</t>
+	    </list></t>
+    </section>
+
     <section anchor="contr" title="Contributors">
 
       <t>Much of the text in this memo is from a blog article written
