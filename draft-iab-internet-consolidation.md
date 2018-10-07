@@ -17,16 +17,11 @@ author:
     name: Jari Arkko
     org: Ericsson
     email: jari.arkko@piuha.net
-    city: 02700 Kaunainen
-    country: Finland
   -
     ins: B. Trammell
     name: Brian Trammell
     org: ETH Zurich
     email: ietf@trammell.ch
-    street: Gloriastrasse 35
-    city: 8092 Zurich
-    country: Switzerland
   -
     ins: M. Nottingham
     name: Mark Nottingham
@@ -37,7 +32,7 @@ author:
     name: Christian Huitema
     org: Private Octopus Inc.
     email: huitema@huitema.net
-  - 
+  -
     ins: M. Thomson
     name: Martin Thomson
     org: Mozilla
@@ -62,25 +57,25 @@ and what might this mean for the Internet?
 --- middle
 
 # Introduction
-      
+
 A recent discussion topic has been the role of smaller vs. larger players in the
 Internet ecosystem. Is Internet traffic consolidating, i.e., moving towards a
 larger fraction of traffic involving a small set of large content providers,
 social networks, and content delivery platforms? It certainly appears so, though
 more research on this topic would be welcome.
-      
+
 Why is this happening, and what might this mean for the Internet? Are our
 technology and architecture choices affecting some of these trends? Would
 different technology change the trends in some fashion?
-      
+
 Our engineering remit is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
 design. Technology affects economics and vice versa. The Internet technology
 community continues to make decisions that have ramifications on Internet
 systems, just as we are subject to forces that affect them: the consolidation
 trend also raises relevant and interesting technical and architectural
-questions. 
-      
+questions.
+
 As technologists, one question we have is whether there are changes in
 technology that would help reduce technically-driven large-player advantages.
 This would lead to less dependence on a few players and other advantages.
@@ -89,7 +84,7 @@ This memo reviews areas where consolidation may be occurring in the Internet,
 and discusses the potential reasons for this. {{factors}} discusses
 consolidation and the reasons behind the creation of larger entities, and
 {{actions}} looks at some actions that might alleviate the situation.
-      
+
 Note: If you are interested on this or other architecture-related topics, please
 subscribe to the IAB architecture discussion mailing list,
 architecture-discuss@iab.org, as one forum for discussion.
@@ -98,7 +93,7 @@ architecture-discuss@iab.org, as one forum for discussion.
 
 In general, an efficient market such as the Internet tends to enable winners to
 take large market shares. Efficiences of scale help this process further.
-      
+
 The effects of these factors can be seen, for instance, in provisioning of
 content and services, social media, or cloud systems; likewise, ISP services
 often achieve better efficiency at scale. Similar effects can also be seen with
@@ -113,13 +108,13 @@ further. In particular, it is useful to distinguish market or economic factors
 from technical factors.
 
 ## Economic Factors
-	  
+
 The primary economic factors relate to scale, network effects, and lack of
 barriers for serving larger set of customers. The scaling benefits are natural
 for many types of businesses. And many Internet-based businesses can potentially
 serve a very large customer base, as the cost of replicating and delivering
 their service to new customers or areas is small.
-	
+
 The network effect, however, has a potentially even more pronounced impact. The
 network effect means that each additional user in a network adds to the value of
 the network for all users in the network. As a result, the value of services
@@ -141,7 +136,7 @@ that essentially any application could be built on top of it, without a need to
 arrange any special support from anyone else for the application. This is what
 enables the end-to-end principle to work, and allows free development of
 innovative applications over a common network.
-	
+
 There is an interesting contradiction in the kinds of openness and standards
 that are needed for the network and the applications. Once the network is
 powerful enough, it becomes possible to build complex applications that do not
@@ -152,7 +147,7 @@ Completeness Theorem.
 
 Another class of factors relates to fundamental issues, effects that are
 inherent to the services that are being provided.
-	  
+
 One example of such factors is speed of light; low-latency services can
 fundamentally only be provided through globally distributed data centers. These
 are often provided built by large organisations, although collaborative and data
@@ -172,7 +167,7 @@ by economic factors or whether fundamental reasons or lack available technology
 drives particular models. For instance, centralised solutions might desirable
 due to business incentives, or they might be necessary because there is no
 distributed, collaborative solution.
-	  
+
 For instance, some technical issues have historically not been easy to solve,
 such as e-mail spam, which has lead to reliance on non-technical solutions.
 Today, it is becoming increasingly difficult to run your own mail services,
@@ -191,7 +186,7 @@ These advantages are only getting larger with the advent AI- and machine
 learning -based technologies. The more users a service has, the more data is
 available for training machine learning models, and the better the service
 becomes, bringing again more users.
-	  
+
 A more current trend is that more and more content is becoming available
 locally, from a content delivery or provider function directly on your own ISP's
 network. This trend seems strong, and eventually most of the content will be
@@ -230,7 +225,7 @@ targets for attackers or intelligence agencies to go after. It would be more
 difficult to gather information from many different ISP resolvers than to serve
 a request one entity that provides these services for large number of users.
 
-# Call for New Work {#action}
+# Call for New Work {#actions}
 
 ## Understanding Assumptions
 
@@ -244,7 +239,7 @@ have to match those changes.
 It appears that level the playing field for new entrants or small players brings
 potential benefits, and allows new innovation solutions to grow large. Are there
 technical solutions that are missing today?
-	
+
 Of course, it may well be that technology improvements are hard to come by.
 Nevertheless, recognising the risks of consolidation in both current and
 proposed future technologies is the first step in proactively avoiding those
@@ -264,15 +259,15 @@ various aspects of the Internet, from Internet traffic flows to economics.
 
 Research on distributed solutions to various Internet issues is also
 welcome.
-	
+
 What other research on this topic should be driven forward?
-    
+
 # Open Issues
 
 Edit the document considering Jari and Brian's discussion in Montreal. The
 following items may be useful avenues forfurther thinking about this topic, but
 could also be complete red herrings:
-            
+
 - The fundamental things we can do about consolidation are (1) migration toward
   more distributed architectures (not mentioning the b word!); (2) regulation or
   political solutions; or (3) give up.
