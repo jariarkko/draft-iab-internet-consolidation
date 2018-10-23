@@ -275,10 +275,10 @@ ensure the Internet is kept open for new innovations and in the control of users
 is very important.
 
 - What IETF topics that should be pursued to address some of
-	the issues around consolidation?
+  the issues around consolidation?
 
 - What measurements relating to the developments centralization or
-	consolidation should be pursued?
+  consolidation should be pursued?
 
 - What research, such as distributed Internet architectures,
   should be driven forward?
