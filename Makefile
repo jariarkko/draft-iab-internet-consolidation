@@ -1,13 +1,11 @@
+LIBDIR := lib
+include $(LIBDIR)/main.mk
 
-all:	draft-iab-internet-consolidation.txt \
-	copy
-
-draft-iab-internet-consolidation.txt:	draft-iab-internet-consolidation.xml
-	scp draft-iab-internet-consolidation.xml jar@arkko.eu:
-	ssh jar@arkko.eu xml2rfc draft-iab-internet-consolidation.xml
-	scp jar@arkko.eu:draft-iab-internet-consolidation.txt .
-
-copy:	draft-iab-internet-consolidation.txt
-	scp draft-iab-internet-consolidation.xml \
-	    draft-iab-internet-consolidation.txt \
-	    jar@cloud1.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
+$(LIBDIR)/main.mk:
+ifneq (,$(shell grep "path *= *$(LIBDIR)" .gitmodules 2>/dev/null))
+	git submodule sync
+	git submodule update $(CLONE_ARGS) --init
+else
+	git clone -q --depth 10 $(CLONE_ARGS) \
+	    -b master https://github.com/martinthomson/i-d-template $(LIBDIR)
+endif
