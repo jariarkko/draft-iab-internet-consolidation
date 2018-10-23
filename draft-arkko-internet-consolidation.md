@@ -1,7 +1,7 @@
 ---
 title: Considerations on Internet Consolidation and the Internet Architecture
 abbrev: Consolidation
-docname: draft-iab-internet-consolidation-latest
+docname: draft-arkko-internet-consolidation-latest
 date:
 category: info
 
