@@ -9,3 +9,6 @@ else
 	git clone -q --depth 10 $(CLONE_ARGS) \
 	    -b master https://github.com/martinthomson/i-d-template $(LIBDIR)
 endif
+
+cleantrash:
+	rm -f *~
