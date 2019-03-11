@@ -200,24 +200,35 @@ discussion.
 
 # Other Work {#otherwork}
 
-One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}. But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
 
-Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition. According to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not be how markets function. 
+But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
-It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of  investment, products, services, and infrastructure, and the government’s light-handed approach to regulation  has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many  issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives {{RFC3935}}.
+Current scientific economic thinking harbors two different schools vis
+a vis efficient markets and monopolies. The school based on Adam Smith
+argues that unfettered markets tend to concentration of wealth and
+income, whereas liberal economist believe in efficient markets that
+stimulate competition.
+
+On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not be how markets function.
+
+It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of investment, products, services, and infrastructure, and the government’s light-handed approach to regulation has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives. For instance, {{RFC1958}} says:
+
+   This allows for uniform and relatively seamless operations in a competitive, multi-vendor, multi-provider public network.
+   
+and
+   
+   Heterogeneity is inevitable and must be supported by design.
+
+And {{RFC3935}} says:
+
+   We embrace technical concepts such as decentralized control, edge-user empowerment and sharing of resources, because those concepts resonate with the core values of the IETF community.
 
 # Factors Driving Consolidation {#factors}
 
-Consolidation is driven by economic factors relating to scale and ability to
-reach a large market over the Internet. In general, an efficient market such as
-the Internet tends to enable winners to take large market shares.
+Consolidation is driven by economic factors relating to scale and ability to easily reach a large market of users over the Internet. This kind of setting tends to enable winners to take large market shares, whether those winners came about through the model that liberal economists believe in or the model that Adam Smith believes in.
 
-The most visible aspects of this involve well-recognised Internet services, but
-it is important to recognise that the Internet is a complex ecosystem. There are
-many underlying services whose diversity, or lack thereof, are as important as
-that of, say, consumer-visible social networks. For instance, the diversity of
-cloud services, operating systems, browser engines is as important as that as of
-application stores or the browsers themselves.
+The most visible aspects of this involve well-recognised Internet services, but it is important to recognise that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
 
 Of course, the Internet allows plenty of choice both in these and other areas.
 Too many or too few choices create different kinds of problems.
