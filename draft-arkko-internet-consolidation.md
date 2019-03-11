@@ -148,6 +148,11 @@ informative:
     date: February 8, 2019
     seriesinfo: Gizmodo, https://www.gizmodo.com.au/2019/02/i-cut-the-big-five-tech-giants-from-my-life-it-was-hell/
 
+  ISOC:
+    title: Consolidation in the Internet economy
+    date: 2019
+    seriesinfo: Internet Society, https://future.internetsociety.org/2019/
+
 --- abstract
 
 Many of us have held a vision of the Internet as the ultimate distributed
@@ -195,15 +200,9 @@ As technologists, our fourth question is whether there are changes in
 technology that would help reduce those large-player advantages that
 are technically-driven.
 
-This memo reviews areas where consolidation may be occurring in the Internet,
-and discusses the potential reasons for this. The memo starts by
-review other work in this area in {{otherwork}}. {{factors}} discusses
-consolidation and the reasons behind the creation of larger entities, and
-{{actions}} looks at some actions that might alleviate the situation.
+This memo reviews areas where consolidation may be occurring in the Internet, and discusses the potential reasons for this. The memo starts by review other work in this area in {{otherwork}}. {{factors}} discusses consolidation and the reasons behind the creation of larger entities, and {{actions}} looks at some actions that might alleviate the situation.
 
-Note: If you are interested on this or other architecture-related topics, please
-subscribe to the IAB architecture-discuss mailing list as one forum for
-discussion.
+If you are interested on this or other architecture-related topics, please subscribe to the IAB architecture-discuss mailing list as one forum for discussion. Similarly, the Internet Society has chosen consolidation as a focus topic for their year 2019 activities. Their report is in {{ISOC}}.
 
 # Other Work {#otherwork}
 
@@ -231,14 +230,18 @@ And {{RFC3935}} says:
 
 Consolidation is driven by economic factors relating to scale and ability to easily reach a large market of users over the Internet. This kind of setting tends to enable winners to take large market shares, whether those winners came about through the model that liberal economists believe in or the model that Adam Smith believes in.
 
-The most visible aspects of this involve well-recognised Internet services, but it is important to recognise that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
+The most visible aspects of this involve well-recognised Internet services. Internet Society's report summarised the market position of most well recognised Internet service brands as follows {{ISOC}}:
 
-Of course, the Internet allows plenty of choice both in these and other areas.
-Too many or too few choices create different kinds of problems.
+* Facebook and Google have been estimated to account for 84% of global digital advertising investment (excluding China).
+* Amazon is expected to account for 49.1% of all online retail spending in the US. Similarly, Alibaba is estimated to have close to 60% of the e-commerce market in China.
+* Google alone holds 90% of the global search market, over 60% of web browsers, and has the number 1 (by far) mobile operating system (Android).
+* Facebook – incorporating Facebook Messenger, WhatsApp, and Instagram – holds 4 of the world’s top 6 social media platforms.
 
-It would be useful to break these general factors and observations down a bit
-further. In particular, it is useful to distinguish market or economic factors
-from technical factors.
+But it is important to recognise that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
+
+Of course, the Internet allows plenty of choice both in these and other areas.  Too many or too few choices create different kinds of problems.
+
+It would be useful to break these general factors and observations down a bit further. In particular, it is useful to distinguish market or economic factors from technical factors.
 
 ## Economics
 
