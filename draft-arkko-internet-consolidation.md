@@ -90,10 +90,13 @@ Our first question is whether Internet is indeed consolidating?
 certainly appears so, though more quantitative research on this topic
 would be welcome.
 
-This phenomenon could be looked at from many different angles, but this memo
-considers the topic from the perspective of how available technology and
-Internet architecture drives different market directions. How are technology
-choices and fundamentals of communication affecting some of these trends?
+This phenomenon could be looked at from many different angles, but
+this memo considers the topic from the perspective of how available
+technology and Internet architecture drives different market
+directions.  Our second question is if the Internet technology has
+influenced the consolidation trends in some manner?  And conversely,
+the third question asks how is Internet consolidation influencing the
+development of the Internet infrastructure and architecture?
 
 The engineering remit at the IETF is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
@@ -101,7 +104,7 @@ design. Technology affects economics and vice versa. The Internet technology
 community continues to make decisions that have ramifications on Internet
 systems, just as we are subject to forces that affect them.
 
-As technologists, one question we have is whether there are changes in
+As technologists, our fourth question is whether there are changes in
 technology that would help reduce those large-player advantages that
 are technically-driven.
 
@@ -314,6 +317,24 @@ is very important.
 ## Open Source {#opensource}
 
 ## Research Challenges {#research}
+
+There are number of different research directions for which further
+work would be useful.
+
+The first is about measurements; is the Internet indeed consolidating,
+and if so, by how much, and in what aspects?
+
+There are also questions about the trends and their relationships to
+technology: Has Internet technology influenced the
+consolidation trends in some manner?  And conversely, how is Internet
+consolidation influencing the development of the Internet
+infrastructure and architecture?
+
+Finally, research on topics that would likely yield results that
+increase the diversity and de-centralization in the Internet would
+obviously be welcome. This can include any de-centralized
+technologies, but in particular distributed Internet architecture is
+an Interesting topic.
 
 # Contributors
 
