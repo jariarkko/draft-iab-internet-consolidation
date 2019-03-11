@@ -40,7 +40,7 @@ author:
   -
     ins: J. Tantsura
     name: Jeff Tantsura
-    org: Nuage Networks
+    org: Apstra, Inc.
     email: jefftant.ietf@gmail.com
   -
     ins: N. ten Oever
