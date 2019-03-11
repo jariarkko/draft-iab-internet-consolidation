@@ -12,3 +12,14 @@ endif
 
 cleantrash:
 	rm -f *~
+
+diff:	draft-arkko-internet-consolidation.txt
+	rfcdiff draft-arkko-internet-consolidation-00.txt draft-arkko-internet-consolidation.txt
+
+copycompile:
+	ssh jar@arkko.eu 'rm -rf draft-iab-internet-consolidation'
+	ssh jar@arkko.eu 'mkdir draft-iab-internet-consolidation'
+	scp -qrp * .??* jar@arkko.eu:draft-iab-internet-consolidation
+	ssh jar@arkko.eu 'cd draft-iab-internet-consolidation; make; make diff'
+	scp jar@arkko.eu:draft-iab-internet-consolidation/draft-arkko-internet-consolidation.txt .
+	scp jar@arkko.eu:draft-iab-internet-consolidation/*.html .

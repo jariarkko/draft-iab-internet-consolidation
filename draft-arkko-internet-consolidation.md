@@ -84,7 +84,8 @@ community continues to make decisions that have ramifications on Internet
 systems, just as we are subject to forces that affect them.
 
 As technologists, one question we have is whether there are changes in
-technology that would help reduce technically-driven large-player advantages.
+technology that would help reduce those large-player advantages that
+are technically-driven.
 
 This memo reviews areas where consolidation may be occurring in the Internet,
 and discusses the potential reasons for this. {{factors}} discusses
@@ -293,6 +294,7 @@ Trammell APNIC and RIPE.
 
 # Acknowledgements
 
-The authors would like to thank IAB members, Geoff Huston, Gonzalo Camarillo,
-Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, and many others for interesting
-discussions in this problem space.
+The authors would like to thank IAB members, Geoff Huston, Gonzalo
+Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, Niels ten
+Oever, and many others for interesting discussions in this problem
+space.
