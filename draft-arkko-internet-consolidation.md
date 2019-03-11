@@ -123,7 +123,16 @@ informative:
     author:
       - ins: J. Stiglitz
     target: https://www.weforum.org/agenda/2016/05/joseph-stiglitz-are-markets-efficient-or-do-they-tend-towards-monopoly-the-verdict-is-in/
-
+    
+  Cowheyetal:
+    title: "Shaping the Architecture of the US Information and Communication Technology Architecture: A Political Economic Analysis" 
+    date: 2009
+    author:
+      - ins: P. F. Cowhey
+      - ins: J.D. Aronson
+      - ins: J. Richards
+    seriesinfo: Review of Policy Research 26 (1–2): 105–125.
+    
 --- abstract
 
 Many of us have held a vision of the Internet as the ultimate distributed
@@ -191,7 +200,7 @@ discussion.
 
 # Other Work {#otherwork}
 
-One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}. But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation (Cowhey, Aronson, and Richards 2009; Van Schewick 2012), some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}. But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
 Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition. According to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not be how markets function. 
 
