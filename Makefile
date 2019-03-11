@@ -23,3 +23,7 @@ copycompile:
 	ssh jar@arkko.eu 'cd draft-iab-internet-consolidation; make; make diff'
 	scp jar@arkko.eu:draft-iab-internet-consolidation/draft-arkko-internet-consolidation.txt .
 	scp jar@arkko.eu:draft-iab-internet-consolidation/*.html .
+	scp draft-arkko-internet-consolidation.txt \
+		draft-arkko-internet-consolidation.html \
+		draft-arkko-internet-consolidation-from--00.diff.html \
+		jar@cloud1.arkko.eu:/var/www/www.arkko.com/html/ietf/iab

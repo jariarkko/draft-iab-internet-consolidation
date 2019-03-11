@@ -132,7 +132,22 @@ informative:
       - ins: J.D. Aronson
       - ins: J. Richards
     seriesinfo: Review of Policy Research 26 (1–2), pp. 105–125.
-    
+
+  Boyle:
+    title: "Foucault in Cyberspace: Surveillance, Sovereignty, and Hardwired Censors"
+    date: 1997
+    seriesinfo: Duke Law School, https://scholarship.law.duke.edu/faculty_scholarship/619/
+
+  Gilmore:
+    title: First Nation in Cyberspace
+    date: December 6, 1993
+    seriesinfo: TIME International (see http://kirste.userpage.fu-berlin.de/outerspace/internet-article.html)
+
+  Gizmodo:
+    title: I Cut The 'Big Five' Tech Giants From My Life. It Was Hell
+    date: February 8, 2019
+    seriesinfo: Gizmodo, https://www.gizmodo.com.au/2019/02/i-cut-the-big-five-tech-giants-from-my-life-it-was-hell/
+
 --- abstract
 
 Many of us have held a vision of the Internet as the ultimate distributed
@@ -166,17 +181,9 @@ providing important technology components may have a significant
 impact on what technology is deployed for large numbers of users or by
 other organizations.
 
-Our first question is whether Internet is indeed consolidating?
-certainly appears so, though more quantitative research on this topic
-would be welcome.
+Our first question is whether Internet is indeed consolidating? It certainly appears so, though more quantitative research on this topic would be welcome. It is also possible that there's only a perception of consolidation, as market forces have caused business changes in new areas of business. Arguably, today's consolidation areas seem to be more in the application space than further down in the stack or in the operating systems, as was the case some years ago. The second question is if we're seeing consolidation simply moving to new areas.
 
-This phenomenon could be looked at from many different angles, but
-this memo considers the topic from the perspective of how available
-technology and Internet architecture drives different market
-directions.  Our second question is if the Internet technology has
-influenced the consolidation trends in some manner?  And conversely,
-the third question asks how is Internet consolidation influencing the
-development of the Internet infrastructure and architecture?
+This phenomenon could be looked at from many different angles, but this memo considers the topic from the perspective of how available technology and Internet architecture drives different market directions.  Our third question is if the Internet technology has influenced the consolidation trends in some manner?  And conversely, the fourth question asks how is Internet consolidation influencing the development of the Internet infrastructure and architecture?
 
 The engineering remit at the IETF is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
@@ -254,37 +261,31 @@ high-quality services but also because running email services by small entities
 is becoming difficult; among other things due to spam prevention practices that
 tend to recognise well only the largest entities.
 
-In some other applications, such as social media, the services have a more
-closed nature. The value of being a customer of one social media service depends
-highly on how many other customers that particular service has. Hence, the
-larger the service, the more valuable it is. And the bigger the value difference
-to the customers, the less practical choice they have in selecting a service.
+In some other applications, such as social media, the services have a more closed nature. The value of being a customer of one social media service depends highly on how many other customers that particular service has. Hence, the larger the service, the more valuable it is. And the bigger the value difference to the customers, the less practical choice they have in selecting a service.
 
-In some cases, these developments also allow asymmetric relationships to form,
-with the customers having less ability to affect the service than they would
-perhaps wish.
+In some cases, these developments also allow asymmetric relationships to form, with the customers having less ability to affect the service than they would perhaps wish.
+
+## Interdependencies
+
+Entities with a large role in a market place tend to have inertia, of course through having many customers, but also due to their interconnectedness with the rest of the ecosystem. These interconnections can range from business relationships to peering connections, linking, and the use of various infrastructure services from an entity as building blocks in applications.
+
+These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge to not use the most commonly used Internet services {{Gizmodo}}.
+
+Optimistic technologists ("digital libertarians") tend to have a beliefs that states have limited abiilty to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presense in.
+
+As a result, there's an added angle of interconnectedness with governments. At the same time, this of course also provides an avenue for control of market forces, e.g., in the form of competition law.
 
 ## Data- and Capital-intensive Services
 
-The scaling advantages are only getting larger with the advent of AI- and
-machine learning -based technologies.
+The scaling advantages are only getting larger with the advent of AI- and machine learning -based technologies.
 
-The more users a service has, the more data is available for training machine
-learning models, and the better the service becomes, bringing again more users.
-This feedback loop and the general capital-intensive nature of the technology
-(data and processing at scale) makes it likely that the largest companies are
-ahead in the use of these technologies.
+The more users a service has, the more data is available for training machine learning models, and the better the service becomes, bringing again more users.  This feedback loop and the general capital-intensive nature of the technology (data and processing at scale) makes it likely that the largest companies are ahead in the use of these technologies.
+
+One could also take the pessimistic view that many of the ongoing disputes in standards organisations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of the user's privacy but rather whether one or another industry (or country) will be able to benefit from access to data.
 
 ## Permissionless Innovation
 
-The email vs. social media example also highlights the interesting roles of
-interoperability and the "permissionless innovation" principle -- the idea that
-a network can be simple but still powerful enough that essentially any
-application could be built on top of it without needing any special support from
-anyone else. Permissionless innovation has brought us all the innovative
-applications that we enjoy today, on top of a highly interoperable underlying
-network, along with advances in video coding and other techniques used by
-applications.
+The email vs. social media example also highlights the interesting roles of interoperability and the "permissionless innovation" principle -- the idea that a network can be simple but still powerful enough that essentially any application could be built on top of it without needing any special support from anyone else. Permissionless innovation has brought us all the innovative applications that we enjoy today, on top of a highly interoperable underlying network, along with advances in video coding and other techniques used by applications.
 
 Paradoxically, if the underlying network is sufficiently powerful, the
 applications on top can evolve without similar pressures for interoperability,
@@ -481,36 +482,18 @@ safety valve and competition opportunity.
 
 ## Research Challenges {#research}
 
-There are number of different research directions for which further
-work would be useful.
+There are number of different research directions for which further work would be useful.
 
-The first is about measurements; is the Internet indeed consolidating,
-and if so, by how much, and in what aspects?
+The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are Internet's traffic flows concentrating, and how is this changing over time?
 
-There are also questions about the trends and their relationships to
-technology: Has Internet technology influenced the
-consolidation trends in some manner?  And conversely, how is Internet
-consolidation influencing the development of the Internet
-infrastructure and architecture?
+There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how is Internet consolidation influencing the development of the Internet infrastructure and architecture?
 
-Finally, research on topics that would likely yield results that
-increase the diversity and de-centralization in the Internet would
-obviously be welcome. This can include any de-centralized
-technologies, but in particular distributed Internet architecture is
-an Interesting topic.
+Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an Interesting topic.
 
 # Contributors
 
-Much of the text in this memo is from a blog article written
-by Jari Arkko, Mark Nottingham, Christian Huitema, Martin
-Thomson, and Brian Trammell for the Internet Architecture Board
-(IAB), and from a blog article written by Jari Arkko and Brian
-Trammell APNIC and RIPE. Some parts of the text have also come from a
-future workshop description developed in the IAB, primarily by
-Christian Huitema and Ted Hardie.
+Much of the text in this memo is from a blog article written by Jari Arkko, Mark Nottingham, Christian Huitema, Martin Thomson, and Brian Trammell for the Internet Architecture Board (IAB), and from a blog article written by Jari Arkko and Brian Trammell APNIC and RIPE. Some parts of the text have also come from a future workshop description developed in the IAB, primarily by Christian Huitema and Ted Hardie.
 
 # Acknowledgements
 
-The authors would like to thank IAB members, Geoff Huston, Gonzalo
-Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, and many
-others for interesting discussions in this problem space.
+The authors would like to thank IAB members, Geoff Huston, Amelia Andersdotter, Gonzalo Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, and many others for interesting discussions in this problem space.
