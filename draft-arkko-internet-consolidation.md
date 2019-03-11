@@ -106,13 +106,18 @@ technology that would help reduce those large-player advantages that
 are technically-driven.
 
 This memo reviews areas where consolidation may be occurring in the Internet,
-and discusses the potential reasons for this. {{factors}} discusses
+and discusses the potential reasons for this. The memo starts by
+review other work in this area in {{otherwork}}. {{factors}} discusses
 consolidation and the reasons behind the creation of larger entities, and
 {{actions}} looks at some actions that might alleviate the situation.
 
 Note: If you are interested on this or other architecture-related topics, please
 subscribe to the IAB architecture-discuss mailing list as one forum for
 discussion.
+
+# Other Work {#otherwork}
+
+TBD...
 
 # Factors Driving Consolidation {#factors}
 
@@ -294,13 +299,21 @@ ensure the Internet is kept open for new innovations and in the control of users
 is very important.
 
 - What IETF topics that should be pursued to address some of
-  the issues around consolidation?
+  the issues around consolidation? Some of the topics for
+  consideration are discussed in {{openinterfaces}} and {{standardsissues}}.
 
 - What measurements relating to the developments centralization or
-  consolidation should be pursued?
+  consolidation should be pursued? And what other research, such as
+  distributed Internet architectures, should be driven forward? Some
+  potential topics are discussed in {{research}}.
 
-- What research, such as distributed Internet architectures,
-  should be driven forward?
+## Open Interfaces {#openinterfaces}
+
+## Specific Standardization Choices {#standardsissues}
+
+## Open Source {#opensource}
+
+## Research Challenges {#research}
 
 # Contributors
 
@@ -313,6 +326,5 @@ Trammell APNIC and RIPE.
 # Acknowledgements
 
 The authors would like to thank IAB members, Geoff Huston, Gonzalo
-Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, Niels ten
-Oever, and many others for interesting discussions in this problem
-space.
+Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, and many
+others for interesting discussions in this problem space.
