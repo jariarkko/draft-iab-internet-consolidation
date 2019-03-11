@@ -42,6 +42,11 @@ author:
     name: Jeff Tantsura
     org: Nuage Networks
     email: jefftant.ietf@gmail.com
+  -
+    ins: N. ten Oever
+    name: Niels ten Oever
+    org: University of Amsterdam
+    email: mail@nielstenoever.net
 
 normative:
 
@@ -67,17 +72,30 @@ platform that allows communication, the provision of services, and competition
 from any corner of the world. But as the Internet has matured, it seems to also
 feed the creation of large, centralised entities in many areas.
 
-Is Internet traffic consolidating, i.e., moving towards a larger fraction of
-traffic involving a small set of large content providers or social networks? It
-certainly appears so, though more quantitative research on this topic would be
-welcome.
+We use the term Internet consolidation to refer to the process of the
+increasing control over Internet infrastructure and services by a
+small set of organizations. Such concentration has an obvious effect
+on traffic flows or whose services and systems are in daily use by large population of
+Internet users, but it can also create secondary effects, where
+the abiity to collect information or to affect something is
+concentrated in the small set of organizations.
+
+Consolidation may also affect technology choices and the evolution of
+the Internet architecture, e.g., large organizations or organizations
+providing important technology components may have a significant
+impact on what technology is deployed for large numbers of users or by
+other organizations.
+
+Our first question is whether Internet is indeed consolidating?
+certainly appears so, though more quantitative research on this topic
+would be welcome.
 
 This phenomenon could be looked at from many different angles, but this memo
 considers the topic from the perspective of how available technology and
 Internet architecture drives different market directions. How are technology
 choices and fundamentals of communication affecting some of these trends?
 
-Our engineering remit is to focus on technology, but of course we also want to
+The engineering remit at the IETF is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
 design. Technology affects economics and vice versa. The Internet technology
 community continues to make decisions that have ramifications on Internet
