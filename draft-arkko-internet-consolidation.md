@@ -131,7 +131,7 @@ informative:
       - ins: P. F. Cowhey
       - ins: J.D. Aronson
       - ins: J. Richards
-    seriesinfo: Review of Policy Research 26 (1–2): 105–125.
+    seriesinfo: Review of Policy Research 26 (1–2), pp. 105–125.
     
 --- abstract
 
@@ -204,11 +204,7 @@ One of the causes for the current consolidation of the Internet infrastructure c
 
 But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
-Current scientific economic thinking harbors two different schools vis
-a vis efficient markets and monopolies. The school based on Adam Smith
-argues that unfettered markets tend to concentration of wealth and
-income, whereas liberal economist believe in efficient markets that
-stimulate competition.
+Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition.
 
 On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not be how markets function.
 
