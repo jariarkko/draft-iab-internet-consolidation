@@ -305,6 +305,11 @@ is very important.
   the issues around consolidation? Some of the topics for
   consideration are discussed in {{openinterfaces}} and {{standardsissues}}.
 
+- Are there open source efforts that should be pursued or kept being
+  pursued to ensure that a diversity of operators and networks can use
+  a particular technology? This is further discussed in
+  {{opensource]].
+
 - What measurements relating to the developments centralization or
   consolidation should be pursued? And what other research, such as
   distributed Internet architectures, should be driven forward? Some
@@ -312,9 +317,76 @@ is very important.
 
 ## Open Interfaces {#openinterfaces}
 
+Standards and open source efforts continue to build many open
+interfaces and APIs that allow systems interoperability and tailoring
+of services. In some cases, however, the availability of open
+interfaces definitions and software has not lead to the realization of
+actual interfaces in this open manner. For instance, different instant messaging
+systems have had a technical ability to be interoperable with other
+systems, just like e-mail is interoperable across systems, but have
+chosen to be disconnected.
+
+Work in determining what open interfaces can provide benefits to users
+as well be successfully deployed in the Internet ecosystem would of
+course be useful.
+
 ## Specific Standardization Choices {#standardsissues}
 
+Sometimes the issue is not the availability of interfaces as
+such, but rather fundamental architectural choices with regards to how
+Internet systems should be built.
+
+Often this relates to how centralized or distributed deployments are
+targeted. And even if a distributed, broad deployment model is
+targeted, he expectations may not match reality when economies of
+scale, DDoS resilience, market consolidation, or other factors have
+come into play. These factors can result in the deployed reality being
+highly concentrated.
+
+This is a serious issue for the Internet, as concentrated, centralized
+deployment models present risks to user choice, privacy, and future
+protocol evolution. On occasion, the differences to expectations can
+be immediate, but can also occur much later.
+
+Some examples of these issue include current work in DNS where we may
+see concentration through the use of globally available common
+resolver services, which evolve rapidly and can offer better
+security. But the concentration of these queries into few services
+creates new security and privacy concerns.
+
+Another example is email, which started out as many providers running
+in a largely uncoordinated fashion, but which has since then
+seensignificant market consolidation and a need for coordination to
+defend against attacks such as spam. The coordination and centralized
+defense mechanisms scale better for large entities, which has fueled
+additional consolidation.
+
+Awareness of these issues while working on standards would be useful,
+so that the issues can be taken into account and appropriately
+mitigated. To begin with, those of us Interested in the broader
+questions about Internet development and Internet researchers are
+needed to identify some of the effects that new technology
+developments may pose. 
+
 ## Open Source {#opensource}
+
+Many key Internet infrastructure services (e.g., DNS servers),
+end-user applications (e.g., browsers) and technology components
+(e.g., operating systems or protocol implementations) are commonly
+implemented using open source solutions.
+
+This is often true even if there's a large entity that is in charge of
+large fraction of development and deployment for a particular
+technology. This is a good thing, as it ensures that others have a
+fair chance of changing the technology in question, should the large
+entity drive their use of the technology in some direction that does
+not benefit the users. For instance, users and other organzations have
+traditionally been able to either run their own browser versions or
+provided extensions that suit their needs better than the default
+system.
+
+As a result, continuing to have this ecosystem is important
+safety valve and competition opportunity.
 
 ## Research Challenges {#research}
 
@@ -342,7 +414,9 @@ Much of the text in this memo is from a blog article written
 by Jari Arkko, Mark Nottingham, Christian Huitema, Martin
 Thomson, and Brian Trammell for the Internet Architecture Board
 (IAB), and from a blog article written by Jari Arkko and Brian
-Trammell APNIC and RIPE.
+Trammell APNIC and RIPE. Some parts of the text have also come from a
+future workshop description developed in the IAB, primarily by
+Christian Huitema and Ted Hardie.
 
 # Acknowledgements
 
