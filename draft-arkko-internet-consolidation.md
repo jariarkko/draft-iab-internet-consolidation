@@ -173,7 +173,7 @@ In some cases, these developments also allow asymmetric relationships to form,
 with the customers having less ability to affect the service than they would
 perhaps wish.
 
-# Data- and Capital-intensive Services
+## Data- and Capital-intensive Services
 
 The scaling advantages are only getting larger with the advent of AI- and
 machine learning -based technologies.
@@ -184,7 +184,7 @@ This feedback loop and the general capital-intensive nature of the technology
 (data and processing at scale) makes it likely that the largest companies are
 ahead in the use of these technologies.
 
-# Permissionless Innovation
+## Permissionless Innovation
 
 The email vs. social media example also highlights the interesting roles of
 interoperability and the "permissionless innovation" principle -- the idea that
@@ -200,7 +200,7 @@ applications on top can evolve without similar pressures for interoperability,
 leading to the closed but highly valuable services discussed above.  We call
 this the Permissionless Completeness Problem.
 
-# Fundamentals of Communication
+## Fundamentals of Communication
 
 There are also fundamental issues. For instance, speed of light; low-latency
 services can fundamentally only be provided through globally distributed data
@@ -214,7 +214,7 @@ also true that large cloud- and content delivery providers can better deal with
 such attacks due to their scale. This is one reason that attracts many network
 services to such providers.
 
-# Technology Factors
+## Technology Factors
 
 One of the key questions is whether we are seeing developments that are driven
 by economic factors or whether fundamental reasons or lack available technology
