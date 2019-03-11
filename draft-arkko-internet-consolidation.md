@@ -51,7 +51,78 @@ author:
 normative:
 
 informative:
+  RFC1192:
   RFC1958:
+  RFC3935:
+
+  Abbate:
+    title: Inventing the Internet
+    date: 2000
+    author:
+      - ins: J. Abbate
+    target: https://mitpress.mit.edu/books/inventing-internet
+    seriesinfo: MIT Press
+
+  Clark:
+    title: The Design Philosophy of the DARPA Internet Protocols
+    date: 1988
+    author:
+      - ins: D. Clark
+    seriesinfo: In Symposium Proceedings on Communications Architectures and Protocols, 106–114. SIGCOMM ’88. New York, NY, USA, ACM https://doi.org/10.1145/52324.52336
+
+  DolataSchrape:
+    title: "Collectivity and Power on the Internet: A Sociological Perspective"
+    date: 2018
+    author:
+      - ins: U. Dolata
+      - ins: J. Schrape
+    target: www.springer.com/de/book/9783319784137
+    seriesinfo: Springer International Publishing. Page 85.
+
+  Frischmann:
+    title: Privatization and Commercialization of the Internet Infrastructure
+    date: 2001
+    author:
+      - ins: B. Frischmann
+    seriesinfo: Colum. Sci. & Tech. L. Rev. 2, pp. 1–25.
+
+  LitanRivlin:
+    title: Projecting the Economic Impact of the Internet
+    date: 2001
+    author:
+      - ins: R.E. Litan
+      - ins: A.M. Rivlin
+    seriesinfo: American Economic Review 91 (2), pp. 313–317
+
+  Mansell:
+    title: "Emerging Internet Oligopolies: A Political Economy Analysis"
+    date: 2002
+    author:
+      - ins: R. Mansell
+      - ins: M. Javary
+    target: https://core.ac.uk/download/pdf/204420.pdf
+    seriesinfo: In Miller, Edythe S.and Samuels, Warren J., (eds.) An Institutionalist Approach to Public Utilities Regulation. Michigan State University Press, East Lansing, Michigan, pp. 162-201. ISBN 9780870136245
+
+  VanSchewick:
+    title: Internet Architecture and Innovation
+    date: 2012
+    author:
+      - ins: B. van Schewick
+    seriesinfo: MIT Press
+
+  Smyrnaios:
+    title: "Internet Oligopoly: The Corporate Takeover of Our Digital World"
+    date: 2018
+    author:
+      - ins: N. Smyrnaios
+    seriesinfo: Emerald Publishing Ltd.
+
+  Stiglitz:
+    title: "Joseph Stiglitz: Are markets efficient, or do they tend towards monopoly? The verdict is in"
+    date: 2016
+    author:
+      - ins: J. Stiglitz
+    target: https://www.weforum.org/agenda/2016/05/joseph-stiglitz-are-markets-efficient-or-do-they-tend-towards-monopoly-the-verdict-is-in/
 
 --- abstract
 
@@ -120,7 +191,11 @@ discussion.
 
 # Other Work {#otherwork}
 
-TBD...
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}. But as we know now, this did not happen as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation (Cowhey, Aronson, and Richards 2009; Van Schewick 2012), some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
+
+Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition. According to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not be how markets function. 
+
+It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of  investment, products, services, and infrastructure, and the government’s light-handed approach to regulation  has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many  issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives {{RFC3935}}.
 
 # Factors Driving Consolidation {#factors}
 
