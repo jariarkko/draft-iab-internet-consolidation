@@ -206,13 +206,13 @@ If you are interested on this or other architecture-related topics, please subsc
 
 # Other Work {#otherwork}
 
-One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commcercialization of the Internet in the early 1990s {{Abbate}}, even through {{RFC1192}} already describes some potential issues that could arise. Overal it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commercialization of the Internet in the early 1990s {{Abbate}}, even though {{RFC1192}} already describes some potential issues that could arise. Overall it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
 
 But as we know now, this did not happen entirely as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
 Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition.
 
-On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a believe in efficient markets, whereas we are now finding out this might not always be how markets function.
+On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
 
 It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of investment, products, services, and infrastructure, and the government’s light-handed approach to regulation has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives. For instance, {{RFC1958}} says:
 
@@ -230,14 +230,14 @@ And {{RFC3935}} says:
 
 Consolidation is driven by economic factors relating to scale and ability to easily reach a large market of users over the Internet. This kind of setting tends to enable winners to take large market shares, whether those winners came about through the model that liberal economists believe in or the model that Adam Smith believes in.
 
-The most visible aspects of this involve well-recognised Internet services. Internet Society's report summarised the market position of most well recognised Internet service brands as follows {{ISOC}}:
+The most visible aspects of this involve well-recognized Internet services. Internet Society's report summarised the market position of popular Internet service brands as follows {{ISOC}}:
 
 * Facebook and Google have been estimated to account for 84% of global digital advertising investment (excluding China).
 * Amazon is expected to account for 49.1% of all online retail spending in the US. Similarly, Alibaba is estimated to have close to 60% of the e-commerce market in China.
 * Google alone holds 90% of the global search market, over 60% of web browsers, and has the number 1 (by far) mobile operating system (Android).
 * Facebook – incorporating Facebook Messenger, WhatsApp, and Instagram – holds 4 of the world’s top 6 social media platforms.
 
-But it is important to recognise that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
+But it is important to recognize that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
 
 Of course, the Internet allows plenty of choice both in these and other areas.  Too many or too few choices create different kinds of problems.
 
@@ -262,7 +262,7 @@ any email server can use it globally. However, here we have seen much more
 consolidation into few large email providers, both due to innovative,
 high-quality services but also because running email services by small entities
 is becoming difficult; among other things due to spam prevention practices that
-tend to recognise well only the largest entities.
+tend to recognize well only the largest entities.
 
 In some other applications, such as social media, the services have a more closed nature. The value of being a customer of one social media service depends highly on how many other customers that particular service has. Hence, the larger the service, the more valuable it is. And the bigger the value difference to the customers, the less practical choice they have in selecting a service.
 
@@ -274,7 +274,7 @@ Entities with a large role in a market place tend to have inertia, of course thr
 
 These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge to not use the most commonly used Internet services {{Gizmodo}}.
 
-Optimistic technologists ("digital libertarians") tend to have a beliefs that states have limited abiilty to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presense in.
+Optimistic technologists ("digital libertarians") tend to have a beliefs that states have limited ability to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presence in.
 
 As a result, there's an added angle of interconnectedness with governments. At the same time, this of course also provides an avenue for control of market forces, e.g., in the form of competition law.
 
@@ -284,7 +284,7 @@ The scaling advantages are only getting larger with the advent of AI- and machin
 
 The more users a service has, the more data is available for training machine learning models, and the better the service becomes, bringing again more users.  This feedback loop and the general capital-intensive nature of the technology (data and processing at scale) makes it likely that the largest companies are ahead in the use of these technologies.
 
-One could also take the pessimistic view that many of the ongoing disputes in standards organisations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of the user's privacy but rather whether one or another industry (or country) will be able to benefit from access to data.
+One could also take the pessimistic view that many of the ongoing disputes in standards organizations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of the user's privacy but rather whether one or another industry (or country) will be able to benefit from access to data.
 
 ## Permissionless Innovation
 
@@ -299,7 +299,7 @@ this the Permissionless Completeness Problem.
 
 There are also fundamental issues. For instance, speed of light; low-latency
 services can fundamentally only be provided through globally distributed data
-centers. These are often provided built by large organisations, although
+centers. These are often provided built by large organizations, although
 collaborative and data center or cloud computing service approaches also exist.
 
 A similar issue has arisen in recent years around large-scale denial-of-service
@@ -318,9 +318,9 @@ due to business incentives, or they might be necessary because there is no
 distributed, collaborative solution.
 
 For instance, some technical issues have historically not been easy to solve,
-such as e-mail spam, which has lead to reliance on non-technical solutions.
+such as e-mail spam, which has led to reliance on non-technical solutions.
 Today, it is becoming increasingly difficult to run your own mail services,
-essentially forcing many organisations and individuals to employ larger
+essentially forcing many organizations and individuals to employ larger
 providers. The issues relate directly to size of entities; no one can afford to
 disconnect from the largest providers. But as a small entity, there is little
 leverage to convince peer entities or various supporting white/blacklist
@@ -368,7 +368,7 @@ It appears that level the playing field for new entrants or small players brings
 potential benefits. Are there technical solutions that are missing today?
 
 Of course, it may well be that technology improvements are hard to come by.
-Nevertheless, recognising the risks of consolidation in both current and
+Nevertheless, recognizing the risks of consolidation in both current and
 proposed future technologies is the first step in proactively avoiding those
 risks where possible.
 
@@ -451,7 +451,7 @@ creates new security and privacy concerns.
 
 Another example is email, which started out as many providers running
 in a largely uncoordinated fashion, but which has since then
-seensignificant market consolidation and a need for coordination to
+seen significant market consolidation and a need for coordination to
 defend against attacks such as spam. The coordination and centralized
 defense mechanisms scale better for large entities, which has fueled
 additional consolidation.
@@ -475,7 +475,7 @@ large fraction of development and deployment for a particular
 technology. This is a good thing, as it ensures that others have a
 fair chance of changing the technology in question, should the large
 entity drive their use of the technology in some direction that does
-not benefit the users. For instance, users and other organzations have
+not benefit the users. For instance, users and other organizations have
 traditionally been able to either run their own browser versions or
 provided extensions that suit their needs better than the default
 system.
@@ -489,7 +489,7 @@ There are number of different research directions for which further work would b
 
 The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are Internet's traffic flows concentrating, and how is this changing over time?
 
-There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how is Internet consolidation influencing the development of the Internet infrastructure and architecture?
+There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how Internet consolidation influences the development of the Internet infrastructure and architecture?
 
 Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an Interesting topic.
 
