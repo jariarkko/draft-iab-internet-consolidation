@@ -28,4 +28,4 @@ contributions in github, you are encouraged to participate in discussions there.
 technical issues needs to occur on the mailing list.
 
 You might also like to familiarize yourself with other
-[IAB stream documents](https://datatracker.ietf.org/wg/stream/iab/).
+[IAB stream documents](https:/datatracker.ietf.org/wg/stream/iab/).
