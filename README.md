@@ -1,6 +1,6 @@
-# Considera ions on In erne Consolida ion and he In erne Archi ec ure
+# Considerations on Internet Consolidation and the Internet Architecture
 
-This is the working area for the individual Internet-Draft, "Considera ions on In erne Consolida ion and he In erne Archi ec ure".
+This is the working area for the individual Internet-Draft, "Considerations on Internet Consolidation and the Internet Architecture".
 
 * [Editor's Copy](https://britram.github.io/draft-iab-internet-consolidation/#go.draft-arkko-internet-consolidation.html)
 * [Individual Draft](https://tools.ietf.org/html/draft-arkko-internet-consolidation)
