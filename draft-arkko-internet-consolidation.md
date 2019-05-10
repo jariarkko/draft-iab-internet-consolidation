@@ -175,20 +175,20 @@ feed the creation of large, centralised entities in many areas.
 We use the term Internet consolidation to refer to the process of the
 increasing control over Internet infrastructure and services by a
 small set of organizations. Such concentration has an obvious effect
-on traffic flows or whose services and systems are in daily use by large population of
-Internet users, but it can also create secondary effects, where
-the abiity to collect information or to affect something is
-concentrated in the small set of organizations.
+on traffic flows or on services and systems that are daily used by a large population of
+Internet users.  However, it can also create secondary effects, where
+the ability to collect information or to affect something is
+concentrated in that small set of organizations.
 
 Consolidation may also affect technology choices and the evolution of
-the Internet architecture, e.g., large organizations or organizations
+the Internet architecture.  For example, large organizations or organizations
 providing important technology components may have a significant
 impact on what technology is deployed for large numbers of users or by
 other organizations.
 
-Our first question is whether Internet is indeed consolidating? It certainly appears so, though more quantitative research on this topic would be welcome. It is also possible that there's only a perception of consolidation, as market forces have caused business changes in new areas of business. Arguably, today's consolidation areas seem to be more in the application space than further down in the stack or in the operating systems, as was the case some years ago. The second question is if we're seeing consolidation simply moving to new areas.
+Our first question is whether the Internet is indeed consolidating. It certainly appears so, but more quantitative research on this topic would be welcome. It is also possible that there is only a perception of consolidation, as market forces have caused business changes in new areas of business. Arguably, today's consolidation areas seem to be more in the application layer than further down in the stack or in operating systems, as was the case some years ago. The second question is if we are seeing consolidation simply moving to new areas.
 
-This phenomenon could be looked at from many different angles, but this memo considers the topic from the perspective of how available technology and Internet architecture drives different market directions.  Our third question is if the Internet technology has influenced the consolidation trends in some manner?  And conversely, the fourth question asks how is Internet consolidation influencing the development of the Internet infrastructure and architecture?
+This phenomenon could be looked at from many different angles, but this memo considers the topic from the perspective of how available technology and Internet architecture drives different market directions.  Our third question is if the Internet technology has influenced the consolidation trends in some manner.  And conversely, the fourth question asks how Internet consolidation is influencing the development of the Internet infrastructure and architecture.
 
 The engineering remit at the IETF is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
@@ -200,19 +200,19 @@ As technologists, our fourth question is whether there are changes in
 technology that would help reduce those large-player advantages that
 are technically-driven.
 
-This memo reviews areas where consolidation may be occurring in the Internet, and discusses the potential reasons for this. The memo starts by review other work in this area in {{otherwork}}. {{factors}} discusses consolidation and the reasons behind the creation of larger entities, and {{actions}} looks at some actions that might alleviate the situation.
+This memo reviews areas where consolidation may be occurring in the Internet, and discusses the potential reasons for this. The memo starts by reviewing other work in this area in {{otherwork}}. {{factors}} discusses consolidation and the reasons behind the creation of larger entities, and {{actions}} looks at some actions that might alleviate the situation.
 
 If you are interested on this or other architecture-related topics, please subscribe to the IAB architecture-discuss mailing list as one forum for discussion. Similarly, the Internet Society has chosen consolidation as a focus topic for their year 2019 activities. Their report is in {{ISOC}}.
 
 # Other Work {#otherwork}
 
-One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commercialization of the Internet in the early 1990s {{Abbate}}, even though {{RFC1192}} already describes some potential issues that could arise. Overall it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commercialization of the Internet in the early 1990s {{Abbate}}, despite {{RFC1192}} describing some potential issues that could arise. Overall it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
 
 But as we know now, this did not happen entirely as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
-Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition.
+Current scientific economic thinking harbors two different schools of thought vis-à-vis efficient markets and monopolies. The school of thought based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economists believe in efficient markets that stimulate competition.
 
-On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
+On the other hand, according to Joseph Stiglitz, 'many sectors – telecommunications, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
 
 It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of investment, products, services, and infrastructure, and the government’s light-handed approach to regulation has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives. For instance, {{RFC1958}} says:
 
