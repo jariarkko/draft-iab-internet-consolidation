@@ -230,16 +230,16 @@ And {{RFC3935}} says:
 
 Consolidation is driven by economic factors relating to scale and ability to easily reach a large market of users over the Internet. This kind of setting tends to enable winners to take large market shares, whether those winners came about through the model that liberal economists believe in or the model that Adam Smith believes in.
 
-The most visible aspects of this involve well-recognized Internet services. Internet Society's report summarised the market position of popular Internet service brands as follows {{ISOC}}:
+The most visible aspects of this involve well-recognized Internet services. The Internet Society's report summarised the market position of popular Internet service brands as follows {{ISOC}}:
 
 * Facebook and Google have been estimated to account for 84% of global digital advertising investment (excluding China).
 * Amazon is expected to account for 49.1% of all online retail spending in the US. Similarly, Alibaba is estimated to have close to 60% of the e-commerce market in China.
 * Google alone holds 90% of the global search market, over 60% of web browsers, and has the number 1 (by far) mobile operating system (Android).
 * Facebook – incorporating Facebook Messenger, WhatsApp, and Instagram – holds 4 of the world’s top 6 social media platforms.
 
-But it is important to recognize that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
+But it is important to recognize that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, and browser engines is as important as that as of application stores or the browsers themselves.
 
-Of course, the Internet allows plenty of choice both in these and other areas.  Too many or too few choices create different kinds of problems.
+Of course, the Internet allows plenty of choice in these and other areas.  Too many or too few choices create different kinds of problems.
 
 It would be useful to break these general factors and observations down a bit further. In particular, it is useful to distinguish market or economic factors from technical factors.
 
@@ -272,19 +272,19 @@ In some cases, these developments also allow asymmetric relationships to form, w
 
 Entities with a large role in a market place tend to have inertia, of course through having many customers, but also due to their interconnectedness with the rest of the ecosystem. These interconnections can range from business relationships to peering connections, linking, and the use of various infrastructure services from an entity as building blocks in applications.
 
-These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge to not use the most commonly used Internet services {{Gizmodo}}.
+These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge not to use the most commonly used Internet services {{Gizmodo}}.
 
-Optimistic technologists ("digital libertarians") tend to have a beliefs that states have limited ability to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presence in.
+Optimistic technologists ("digital libertarians") tend to believe that states have limited ability to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presence in.
 
 As a result, there's an added angle of interconnectedness with governments. At the same time, this of course also provides an avenue for control of market forces, e.g., in the form of competition law.
 
 ## Data- and Capital-intensive Services
 
-The scaling advantages are only getting larger with the advent of AI- and machine learning -based technologies.
+The scaling advantages are only getting larger with the advent of AI- and machine learning-based technologies.
 
 The more users a service has, the more data is available for training machine learning models, and the better the service becomes, bringing again more users.  This feedback loop and the general capital-intensive nature of the technology (data and processing at scale) makes it likely that the largest companies are ahead in the use of these technologies.
 
-One could also take the pessimistic view that many of the ongoing disputes in standards organizations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of the user's privacy but rather whether one or another industry (or country) will be able to benefit from access to data.
+One could also take the pessimistic view that many of the ongoing disputes in standards organizations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of these persons' privacy but rather whether some industry (or country) will be able to benefit from access to data.
 
 ## Permissionless Innovation
 
@@ -297,27 +297,27 @@ this the Permissionless Completeness Problem.
 
 ## Fundamentals of Communication
 
-There are also fundamental issues. For instance, speed of light; low-latency
+There are also fundamental issues, such as the speed of light. Low-latency
 services can fundamentally only be provided through globally distributed data
-centers. These are often provided built by large organizations, although
-collaborative and data center or cloud computing service approaches also exist.
+centers. These are often provided and/or built by large organizations, although
+collaborative data center or cloud computing service approaches also exist.
 
 A similar issue has arisen in recent years around large-scale denial-of-service
 attacks, and how various entities can deal with them. While the largest attacks
 affect all players (see, for instance, the Dyn attacks in October 2016), it is
-also true that large cloud- and content delivery providers can better deal with
+also true that large cloud- and content-delivery providers can better deal with
 such attacks due to their scale. This is one reason that attracts many network
 services to such providers.
 
 ## Technology Factors
 
 One of the key questions is whether we are seeing developments that are driven
-by economic factors or whether fundamental reasons or lack available technology
-drives particular models. For instance, centralised solutions might desirable
+by economic factors or whether fundamental reasons or lack of available technology
+drives particular models. For instance, centralised solutions might be desirable
 due to business incentives, or they might be necessary because there is no
 distributed, collaborative solution.
 
-For instance, some technical issues have historically not been easy to solve,
+Some technical issues have historically not been easy to solve,
 such as e-mail spam, which has led to reliance on non-technical solutions.
 Today, it is becoming increasingly difficult to run your own mail services,
 essentially forcing many organizations and individuals to employ larger
@@ -327,22 +327,22 @@ leverage to convince peer entities or various supporting white/blacklist
 entities to deal with you properly.
 
 Many Internet services are based on gathering data about users, and using that
-data for, for instance, targeted advertisements. More data from more users makes
+data for targeted advertisements. More data from more users makes
 it possible to run a service more accurately or with better results; here again
 scale brings advantages.
 
 Another trend is that more and more content is becoming available locally, from
-a content delivery or provider function directly on your own ISP's network. We
+a content delivery or provider function directly on one's own ISP network. We
 predict that eventually most content will be delivered this way, reducing the
-role that global IP connections across the Internet play. By some metrics this
+role that global IP connectivity across the Internet plays. By some metrics this
 has already happened; what practical - positive or negative - impacts might this
 have on the Internet technology?
 
 There are also security tradeoffs. Large entities are generally better equipped
 to move to more recent and more secure technology. For instance, the Domain Name
 System (DNS) shows signs of ageing but due to the legacy of deployed systems,
-has changed very slowly. Newer technology developed at the IETF enables DNS
-queries to be performed confidentially, but its deployment is happening mostly
+has changed very slowly. Newer technology developed in accordance with IETF standards
+enables DNS queries to be performed confidentially, but its deployment is happening mostly
 in browsers that use global DNS resolver services, such as Cloudflare's 1.1.1.1
 or Google's 8.8.8.8. This results in faster evolution and better security for
 end users.
