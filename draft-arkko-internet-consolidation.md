@@ -364,7 +364,7 @@ world where larger, more centralised entities provide big parts of the Internet
 service? If the world changes, the Internet and its technology/architecture may
 have to match those changes.
 
-It appears that level the playing field for new entrants or small players brings
+It appears that leveling the playing field for new entrants or small players brings
 potential benefits. Are there technical solutions that are missing today?
 
 Of course, it may well be that technology improvements are hard to come by.
@@ -374,24 +374,24 @@ risks where possible.
 
 Assuming that one does not wish for regulation, technologies that support
 distributed architectures, open source implementations of currently centralised
-network functions, or help increase user's control can be beneficial.
+network functions, or helping increase users' control can be beneficial.
 Federation, for example, would help enable distributed services in situations
 where smaller entities would like to collaborate.
 
 Similarly, in an asymmetric power balance between users and services, tools that
 enable the user to control what information is provided to a particular service
 can be very helpful. Some such tools exist, for instance, in the privacy and
-tracking-prevention modes of popular browsers but why are these modes not the
+prevention-tracking modes of popular browsers, but why are these modes not the
 default, and could we develop them further?
 
 It is also surprising that in the age of software-defined everything, we can
 program almost anything else except the globally provided, packaged services.
 Opening up interfaces would allow the building of additional, innovative
-services, and better match with users' needs.
+services, and better match users' needs.
 
 Silver bullets are rare, of course. Internet service markets sometimes fragment
 rather than cooperate through federation. And the asymmetric power balances are
-easiest changed with data that is in your control, but it is much harder to
+easiest changed with data that is user-controlled, but it is much harder to
 change when someone else holds it. Nevertheless, the exploration of solutions to
 ensure the Internet is kept open for new innovations and in the control of users
 is very important.
@@ -400,12 +400,12 @@ is very important.
   the issues around consolidation? Some of the topics for
   consideration are discussed in {{openinterfaces}} and {{standardsissues}}.
 
-- Are there open source efforts that should be pursued or kept being
+- Are there open source efforts that should be pursued or continue to be
   pursued to ensure that a diversity of operators and networks can use
   a particular technology? This is further discussed in
   {{opensource]].
 
-- What measurements relating to the developments centralization or
+- What measurements relating to the development of centralization or
   consolidation should be pursued? And what other research, such as
   distributed Internet architectures, should be driven forward? Some
   potential topics are discussed in {{research}}.
@@ -415,7 +415,7 @@ is very important.
 Standards and open source efforts continue to build many open
 interfaces and APIs that allow systems interoperability and tailoring
 of services. In some cases, however, the availability of open
-interfaces definitions and software has not lead to the realization of
+interfaces definitions and software has not led to the realization of
 actual interfaces in this open manner. For instance, different instant messaging
 systems have had a technical ability to be interoperable with other
 systems, just like e-mail is interoperable across systems, but have
@@ -433,7 +433,7 @@ Internet systems should be built.
 
 Often this relates to how centralized or distributed deployments are
 targeted. And even if a distributed, broad deployment model is
-targeted, he expectations may not match reality when economies of
+targeted, expectations may not match reality when economies of
 scale, DDoS resilience, market consolidation, or other factors have
 come into play. These factors can result in the deployed reality being
 highly concentrated.
@@ -443,10 +443,10 @@ deployment models present risks to user choice, privacy, and future
 protocol evolution. On occasion, the differences to expectations can
 be immediate, but can also occur much later.
 
-Some examples of these issue include current work in DNS where we may
+Some examples of these issues include current work in DNS where we may
 see concentration through the use of globally available common
 resolver services, which evolve rapidly and can offer better
-security. But the concentration of these queries into few services
+security. But the concentration of these queries into a few services
 creates new security and privacy concerns.
 
 Another example is email, which started out as many providers running
@@ -458,10 +458,9 @@ additional consolidation.
 
 Awareness of these issues while working on standards would be useful,
 so that the issues can be taken into account and appropriately
-mitigated. To begin with, those of us Interested in the broader
-questions about Internet development and Internet researchers are
-needed to identify some of the effects that new technology
-developments may pose. 
+mitigated. To begin with, those of us interested in the broader
+questions about Internet research and development are needed to
+identify some of the effects that new technology developments may pose. 
 
 ## Open Source {#opensource}
 
@@ -470,28 +469,28 @@ end-user applications (e.g., browsers) and technology components
 (e.g., operating systems or protocol implementations) are commonly
 implemented using open source solutions.
 
-This is often true even if there's a large entity that is in charge of
-large fraction of development and deployment for a particular
-technology. This is a good thing, as it ensures that others have a
-fair chance of changing the technology in question, should the large
+This is often true even if there is a large entity that is in charge of
+a large fraction of development and deployment for a particular
+technology. This is a good thing, as it provides a means for others to have
+a fair chance of changing the technology in question, should the large
 entity drive their use of the technology in some direction that does
 not benefit the users. For instance, users and other organizations have
 traditionally been able to either run their own browser versions or
 provided extensions that suit their needs better than the default
 system.
 
-As a result, continuing to have this ecosystem is important
+As a result, continuing to have this ecosystem is an important
 safety valve and competition opportunity.
 
 ## Research Challenges {#research}
 
-There are number of different research directions for which further work would be useful.
+There are a number of different research directions for which further work would be useful.
 
-The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are Internet's traffic flows concentrating, and how is this changing over time?
+The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are the Internet's traffic flows concentrating, and how is this changing over time?
 
-There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how Internet consolidation influences the development of the Internet infrastructure and architecture?
+There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how does Internet consolidation influence the development of Internet infrastructure and architecture?
 
-Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an Interesting topic.
+Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an interesting topic.
 
 # Contributors
 
