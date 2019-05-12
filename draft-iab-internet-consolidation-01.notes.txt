@@ -1,0 +1,61 @@
+Section 1
+
+Throughout the document, the British English 's' and American English 'z'
+spelling conventions alternate, e.g. in Section 1 (Introduction), "it seems to
+also feed the creation of large, centralised" and "something is concentrated
+in the small set of organizations".  As I understand it, either is acceptable,
+but RFC 7322 recommends sticking with one convention.
+
+Also, the phrase "The engineering remit" is used.  (I realize it comes from
+(https://www.ietf.org/blog/consolidation/?primary_topic=6&); more on that
+later.  I'm not sure what is meant by "remit" here.  Do you mean "payment"
+(a common English definition)?
+
+Section 2
+
+In Section 2 (Other Work), and at other places in the draft, you use single
+quotes (') instead of double quotes ("") to quote cited text.  I checked
+RFC 7322 again, which gives double quotes as examples.
+
+The text about Adam Smith could use a citation.  I believe it comes from
+THE WEALTH OF NATIONS, which is available (in individual chapters) at
+https://en.wikisource.org/wiki/The_Wealth_of_Nations.
+
+Section 3
+
+With regards to the 60% web browser figure given in the ISOC report, I would
+separate it out and provide the link to the StatCounter page
+(http://gs.statcounter.com/browser-market-share) as a citation.  Perhaps I am
+biased, but from past experience (I did web traffic analysis for AltaVista),
+I tend to be skeptical about certain claims about web traffic.  At the very
+least, anyone who reads the RFC (if published) would be able to go directly to
+the StatCounter site, and judge for themselves whether their methodology meets
+statistical muster.
+
+Perhaps what is meant by "anyone with an account at any email server can use
+it globally" should be clarified.  Is this a statement about how effectively
+one can use email to communicate with others?  If so, the following statement
+about spam prevention services would tend to negate that (because smaller
+email services are either more vulnerable to spam or are less "politically"
+vulnerable to (undeserved) anti-spam mitigation).  Perhaps another way to put
+this is that the "openness" of email may be perceived as an advantage (because
+one does not have to sign up with a social media or some other "walled garden"
+to communicate with its members), but the proliferation of spam has moved users
+onto these "walled gardens" that are perceived to be, but may not be less
+vulnerable to spam.
+
+I would say the statement "The more users a service has, the more data is
+available for training machine learning models ..." may be true, but is not
+guaranteed to be true.  Perhaps a better statement is "the more data is
+potentially available ..."
+
+A citation for attacks against Dyn, such as
+https://krebsonsecurity.com/2016/10/ddos-on-dyn-impacts-twitter-spotify-reddit/
+would be helpful.
+
+Section 5
+
+The blog article could use a citation.  I assume it is
+https://www.ietf.org/blog/consolidation/?primary_topic=6&.  Also, I would say
+it is based on the blog article, if the RFC text (eventually) differs from
+the article.
