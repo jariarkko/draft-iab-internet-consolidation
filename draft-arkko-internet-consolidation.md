@@ -153,6 +153,27 @@ informative:
     date: 2019
     seriesinfo: Internet Society, https://future.internetsociety.org/2019/
 
+  Wu:
+    title: The Curse of Bigness
+    date: 2018
+    author:
+      - ins: T. Wu
+    seriesinfo: Columbia Global Reports, New York, New York
+
+  Khan:
+    title: Amazon's Antritrust Paradox
+    date: 2017
+    author:
+      - ins: L.M. Khan
+    seriesinfo: The Yale Law Journal 126:710
+
+  Nye:
+    title: "The Regime Complex for Managing Global Cyber Activities. Global Commission on Internet Governance"
+    date: 2014
+    author:
+      - ins: J.S. Nye
+    seriesinfo: CIGI, Global Commission on Internet Governance
+
 --- abstract
 
 Many of us have held a vision of the Internet as the ultimate distributed
@@ -213,6 +234,8 @@ But as we know now, this did not happen entirely as expected. Some even argue th
 Current scientific economic thinking harbors two different schools of thought vis-à-vis efficient markets and monopolies. The school of thought based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economists believe in efficient markets that stimulate competition.
 
 On the other hand, according to Joseph Stiglitz, 'many sectors – telecommunications, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
+
+Recently there is a growing body of literature that the currently observed consolidation into oligopolies and monopolies can be described as a failure of economic policy, which could be addressed with revamped, or improved anti-trust policies {{Wu}} {{Khan}}. On the other hand there are those who criticize these proposals for their economic determinism; merger reviews, company break-ups and 'trustbusting' do not necessarily change the structure of a market. Technology might actually have a role to play in this as well. The IETF in specific, and the Internet governance regime complex {{Nye}} in general, has been designed as a distributed arrangement to prevent capture of the infrastructure by a single interest group or actor. Where power or control was centralized, specific governance arrangements were put into place to counter the centralization of power.
 
 It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of investment, products, services, and infrastructure, and the government’s light-handed approach to regulation has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives. For instance, {{RFC1958}} says:
 
