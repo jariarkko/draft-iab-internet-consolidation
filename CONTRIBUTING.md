@@ -20,12 +20,12 @@ subject to a Simplified BSD License) in Contributions.
 ## Other Resources
 
 Discussion of this work occurs on the
-[internet working group mailing list](https://mailarchive.ietf.org/arch/browse/internet/)
-([subscribe](https://www.ietf.org/mailman/listinfo/internet)).  In addition to
+[architecture-discuss mailing list](https://mailarchive.ietf.org/arch/browse/architecture-discuss/)
+([subscribe](https://www.ietf.org/mailman/listinfo/architecture-discuss)).  In addition to
 contributions in github, you are encouraged to participate in discussions there.
 
 **Note**: Some working groups adopt a policy whereby substantive discussion of
 technical issues needs to occur on the mailing list.
 
 You might also like to familiarize yourself with other
-[working group documents](https://datatracker.ietf.org/wg/internet/documents/).
+[IAB stream documents](https://datatracker.ietf.org/stream/iab/).

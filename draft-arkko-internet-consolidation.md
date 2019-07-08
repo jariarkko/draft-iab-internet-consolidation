@@ -175,20 +175,20 @@ feed the creation of large, centralised entities in many areas.
 We use the term Internet consolidation to refer to the process of the
 increasing control over Internet infrastructure and services by a
 small set of organizations. Such concentration has an obvious effect
-on traffic flows or whose services and systems are in daily use by large population of
-Internet users, but it can also create secondary effects, where
-the abiity to collect information or to affect something is
-concentrated in the small set of organizations.
+on traffic flows or on services and systems that are daily used by a large population of
+Internet users.  However, it can also create secondary effects, where
+the ability to collect information or to affect something is
+concentrated in that small set of organizations.
 
 Consolidation may also affect technology choices and the evolution of
-the Internet architecture, e.g., large organizations or organizations
+the Internet architecture.  For example, large organizations or organizations
 providing important technology components may have a significant
 impact on what technology is deployed for large numbers of users or by
 other organizations.
 
-Our first question is whether Internet is indeed consolidating? It certainly appears so, though more quantitative research on this topic would be welcome. It is also possible that there's only a perception of consolidation, as market forces have caused business changes in new areas of business. Arguably, today's consolidation areas seem to be more in the application space than further down in the stack or in the operating systems, as was the case some years ago. The second question is if we're seeing consolidation simply moving to new areas.
+Our first question is whether the Internet is indeed consolidating. It certainly appears so, but more quantitative research on this topic would be welcome. It is also possible that there is only a perception of consolidation, as market forces have caused business changes in new areas of business. Arguably, today's consolidation areas seem to be more in the application layer than further down in the stack or in operating systems, as was the case some years ago. The second question is if we are seeing consolidation simply moving to new areas.
 
-This phenomenon could be looked at from many different angles, but this memo considers the topic from the perspective of how available technology and Internet architecture drives different market directions.  Our third question is if the Internet technology has influenced the consolidation trends in some manner?  And conversely, the fourth question asks how is Internet consolidation influencing the development of the Internet infrastructure and architecture?
+This phenomenon could be looked at from many different angles, but this memo considers the topic from the perspective of how available technology and Internet architecture drives different market directions.  Our third question is if the Internet technology has influenced the consolidation trends in some manner.  And conversely, the fourth question asks how Internet consolidation is influencing the development of the Internet infrastructure and architecture.
 
 The engineering remit at the IETF is to focus on technology, but of course we also want to
 understand the implications and externalities of the technical arrangements we
@@ -200,19 +200,19 @@ As technologists, our fourth question is whether there are changes in
 technology that would help reduce those large-player advantages that
 are technically-driven.
 
-This memo reviews areas where consolidation may be occurring in the Internet, and discusses the potential reasons for this. The memo starts by review other work in this area in {{otherwork}}. {{factors}} discusses consolidation and the reasons behind the creation of larger entities, and {{actions}} looks at some actions that might alleviate the situation.
+This memo reviews areas where consolidation may be occurring in the Internet, and discusses the potential reasons for this. The memo starts by reviewing other work in this area in {{otherwork}}. {{factors}} discusses consolidation and the reasons behind the creation of larger entities, and {{actions}} looks at some actions that might alleviate the situation.
 
 If you are interested on this or other architecture-related topics, please subscribe to the IAB architecture-discuss mailing list as one forum for discussion. Similarly, the Internet Society has chosen consolidation as a focus topic for their year 2019 activities. Their report is in {{ISOC}}.
 
 # Other Work {#otherwork}
 
-One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commercialization of the Internet in the early 1990s {{Abbate}}, even though {{RFC1192}} already describes some potential issues that could arise. Overall it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
+One of the causes for the current consolidation of the Internet infrastructure can be traced back to some of the assumptions that were made during the commercialization of the Internet in the early 1990s {{Abbate}}, despite {{RFC1192}} describing some potential issues that could arise. Overall it was expected the combination of commercialization, together with the technical and architectural characteristics of the Internet, such as its modularity and layering principles, would lead to perfect markets, free competition and decentralized structures {{LitanRivlin}}.
 
 But as we know now, this did not happen entirely as expected. Some even argue that ‘market concentrations, control and power struggles are categories to adequately describe the fundamental dynamics of the commercial Internet’ {{DolataSchrape}}. While the privatization was supposed to lead to competition and innovation {{Cowheyetal}} {{VanSchewick}}, some argue that it actually led to the emergence of Internet oligopolies {{Mansell}} {{Smyrnaios}}.
 
-Current scientific economic thinking harbors two different schools vis a vis efficient markets and monopolies. The school based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economist believe in efficient markets that stimulate competition.
+Current scientific economic thinking harbors two different schools of thought vis-à-vis efficient markets and monopolies. The school of thought based on Adam Smith argues that unfettered markets tend to concentration of wealth and income, whereas liberal economists believe in efficient markets that stimulate competition.
 
-On the other hand, according to Joseph Stiglitz 'many sectors – telecoms, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
+On the other hand, according to Joseph Stiglitz, 'many sectors – telecommunications, cable TV, digital branches from social media to Internet search, health insurance, pharmaceuticals, agro-business, and many more – cannot be understood through the lens of competition' {{Stiglitz}}. The considerations of technologists and policy makers at the time of the commercialization and privatization of the Internet infrastructure might have been based on a belief in efficient markets, whereas we are now finding out this might not always be how markets function.
 
 It cannot be denied that 'market actors have contributed immensely to the evolution of the Internet in terms of investment, products, services, and infrastructure, and the government’s light-handed approach to regulation has given producers and consumers substantial freedom to innovate and to self-regulate with respect to many issues affecting the Internet community in ways that have produced substantial social benefits' {{Frischmann}}. But the current consolidation in ownership of and control over the Internet infrastructure was not foreseen {{Clark}}, and arguably the loss of decentralized control goes against its design objectives. For instance, {{RFC1958}} says:
 
@@ -230,16 +230,16 @@ And {{RFC3935}} says:
 
 Consolidation is driven by economic factors relating to scale and ability to easily reach a large market of users over the Internet. This kind of setting tends to enable winners to take large market shares, whether those winners came about through the model that liberal economists believe in or the model that Adam Smith believes in.
 
-The most visible aspects of this involve well-recognized Internet services. Internet Society's report summarised the market position of popular Internet service brands as follows {{ISOC}}:
+The most visible aspects of this involve well-recognized Internet services. The Internet Society's report summarised the market position of popular Internet service brands as follows {{ISOC}}:
 
 * Facebook and Google have been estimated to account for 84% of global digital advertising investment (excluding China).
 * Amazon is expected to account for 49.1% of all online retail spending in the US. Similarly, Alibaba is estimated to have close to 60% of the e-commerce market in China.
 * Google alone holds 90% of the global search market, over 60% of web browsers, and has the number 1 (by far) mobile operating system (Android).
 * Facebook – incorporating Facebook Messenger, WhatsApp, and Instagram – holds 4 of the world’s top 6 social media platforms.
 
-But it is important to recognize that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, browser engines is as important as that as of application stores or the browsers themselves.
+But it is important to recognize that the Internet is a complex ecosystem. There are many underlying services whose diversity, or lack thereof, are as important as that of, say, consumer-visible social networks. For instance, the diversity of cloud services, operating systems, and browser engines is as important as that as of application stores or the browsers themselves.
 
-Of course, the Internet allows plenty of choice both in these and other areas.  Too many or too few choices create different kinds of problems.
+Of course, the Internet allows plenty of choice in these and other areas.  Too many or too few choices create different kinds of problems.
 
 It would be useful to break these general factors and observations down a bit further. In particular, it is useful to distinguish market or economic factors from technical factors.
 
@@ -272,19 +272,19 @@ In some cases, these developments also allow asymmetric relationships to form, w
 
 Entities with a large role in a market place tend to have inertia, of course through having many customers, but also due to their interconnectedness with the rest of the ecosystem. These interconnections can range from business relationships to peering connections, linking, and the use of various infrastructure services from an entity as building blocks in applications.
 
-These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge to not use the most commonly used Internet services {{Gizmodo}}.
+These interconnections make it difficult for a market to move away from a large entity. Indeed, even for an individual it can be a challenge not to use the most commonly used Internet services {{Gizmodo}}.
 
-Optimistic technologists ("digital libertarians") tend to have a beliefs that states have limited ability to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presence in.
+Optimistic technologists ("digital libertarians") tend to believe that states have limited ability to regulate the Internet: "The Net interprets censorship as damage and routes around it" {{Gilmore}}. However, as argued by {{Boyle}} states may have multiple ways to influence and monitor the Internet. One of the issues related to consolidation is that it tends to be easier to exert control of few large entities, than a large set of small, distributed players. This concern is particularly acute around intellectual property rights or surveillance capabilities, particularly when extra-territorial requirements are placed on the large entities. These entities cannot avoid comforming to regulation and laws in any of the locations they have presence in.
 
 As a result, there's an added angle of interconnectedness with governments. At the same time, this of course also provides an avenue for control of market forces, e.g., in the form of competition law.
 
 ## Data- and Capital-intensive Services
 
-The scaling advantages are only getting larger with the advent of AI- and machine learning -based technologies.
+The scaling advantages are only getting larger with the advent of AI- and machine learning-based technologies.
 
 The more users a service has, the more data is available for training machine learning models, and the better the service becomes, bringing again more users.  This feedback loop and the general capital-intensive nature of the technology (data and processing at scale) makes it likely that the largest companies are ahead in the use of these technologies.
 
-One could also take the pessimistic view that many of the ongoing disputes in standards organizations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of the user's privacy but rather whether one or another industry (or country) will be able to benefit from access to data.
+One could also take the pessimistic view that many of the ongoing disputes in standards organizations relate to which market actors will ultimately be able to collect the more data from private persons and how. The question isn't as much about the protection of these persons' privacy but rather whether some industry (or country) will be able to benefit from access to data.
 
 ## Permissionless Innovation
 
@@ -297,27 +297,27 @@ this the Permissionless Completeness Problem.
 
 ## Fundamentals of Communication
 
-There are also fundamental issues. For instance, speed of light; low-latency
+There are also fundamental issues, such as the speed of light. Low-latency
 services can fundamentally only be provided through globally distributed data
-centers. These are often provided built by large organizations, although
-collaborative and data center or cloud computing service approaches also exist.
+centers. These are often provided and/or built by large organizations, although
+collaborative data center or cloud computing service approaches also exist.
 
 A similar issue has arisen in recent years around large-scale denial-of-service
 attacks, and how various entities can deal with them. While the largest attacks
 affect all players (see, for instance, the Dyn attacks in October 2016), it is
-also true that large cloud- and content delivery providers can better deal with
+also true that large cloud- and content-delivery providers can better deal with
 such attacks due to their scale. This is one reason that attracts many network
 services to such providers.
 
 ## Technology Factors
 
 One of the key questions is whether we are seeing developments that are driven
-by economic factors or whether fundamental reasons or lack available technology
-drives particular models. For instance, centralised solutions might desirable
+by economic factors or whether fundamental reasons or lack of available technology
+drives particular models. For instance, centralised solutions might be desirable
 due to business incentives, or they might be necessary because there is no
 distributed, collaborative solution.
 
-For instance, some technical issues have historically not been easy to solve,
+Some technical issues have historically not been easy to solve,
 such as e-mail spam, which has led to reliance on non-technical solutions.
 Today, it is becoming increasingly difficult to run your own mail services,
 essentially forcing many organizations and individuals to employ larger
@@ -327,22 +327,22 @@ leverage to convince peer entities or various supporting white/blacklist
 entities to deal with you properly.
 
 Many Internet services are based on gathering data about users, and using that
-data for, for instance, targeted advertisements. More data from more users makes
+data for targeted advertisements. More data from more users makes
 it possible to run a service more accurately or with better results; here again
 scale brings advantages.
 
 Another trend is that more and more content is becoming available locally, from
-a content delivery or provider function directly on your own ISP's network. We
+a content delivery or provider function directly on one's own ISP network. We
 predict that eventually most content will be delivered this way, reducing the
-role that global IP connections across the Internet play. By some metrics this
+role that global IP connectivity across the Internet plays. By some metrics this
 has already happened; what practical - positive or negative - impacts might this
 have on the Internet technology?
 
 There are also security tradeoffs. Large entities are generally better equipped
 to move to more recent and more secure technology. For instance, the Domain Name
 System (DNS) shows signs of ageing but due to the legacy of deployed systems,
-has changed very slowly. Newer technology developed at the IETF enables DNS
-queries to be performed confidentially, but its deployment is happening mostly
+has changed very slowly. Newer technology developed in accordance with IETF standards
+enables DNS queries to be performed confidentially, but its deployment is happening mostly
 in browsers that use global DNS resolver services, such as Cloudflare's 1.1.1.1
 or Google's 8.8.8.8. This results in faster evolution and better security for
 end users.
@@ -364,7 +364,7 @@ world where larger, more centralised entities provide big parts of the Internet
 service? If the world changes, the Internet and its technology/architecture may
 have to match those changes.
 
-It appears that level the playing field for new entrants or small players brings
+It appears that leveling the playing field for new entrants or small players brings
 potential benefits. Are there technical solutions that are missing today?
 
 Of course, it may well be that technology improvements are hard to come by.
@@ -374,24 +374,24 @@ risks where possible.
 
 Assuming that one does not wish for regulation, technologies that support
 distributed architectures, open source implementations of currently centralised
-network functions, or help increase user's control can be beneficial.
+network functions, or helping increase users' control can be beneficial.
 Federation, for example, would help enable distributed services in situations
 where smaller entities would like to collaborate.
 
 Similarly, in an asymmetric power balance between users and services, tools that
 enable the user to control what information is provided to a particular service
 can be very helpful. Some such tools exist, for instance, in the privacy and
-tracking-prevention modes of popular browsers but why are these modes not the
+prevention-tracking modes of popular browsers, but why are these modes not the
 default, and could we develop them further?
 
 It is also surprising that in the age of software-defined everything, we can
 program almost anything else except the globally provided, packaged services.
 Opening up interfaces would allow the building of additional, innovative
-services, and better match with users' needs.
+services, and better match users' needs.
 
 Silver bullets are rare, of course. Internet service markets sometimes fragment
 rather than cooperate through federation. And the asymmetric power balances are
-easiest changed with data that is in your control, but it is much harder to
+easiest changed with data that is user-controlled, but it is much harder to
 change when someone else holds it. Nevertheless, the exploration of solutions to
 ensure the Internet is kept open for new innovations and in the control of users
 is very important.
@@ -400,12 +400,12 @@ is very important.
   the issues around consolidation? Some of the topics for
   consideration are discussed in {{openinterfaces}} and {{standardsissues}}.
 
-- Are there open source efforts that should be pursued or kept being
+- Are there open source efforts that should be pursued or continue to be
   pursued to ensure that a diversity of operators and networks can use
   a particular technology? This is further discussed in
   {{opensource]].
 
-- What measurements relating to the developments centralization or
+- What measurements relating to the development of centralization or
   consolidation should be pursued? And what other research, such as
   distributed Internet architectures, should be driven forward? Some
   potential topics are discussed in {{research}}.
@@ -415,7 +415,7 @@ is very important.
 Standards and open source efforts continue to build many open
 interfaces and APIs that allow systems interoperability and tailoring
 of services. In some cases, however, the availability of open
-interfaces definitions and software has not lead to the realization of
+interfaces definitions and software has not led to the realization of
 actual interfaces in this open manner. For instance, different instant messaging
 systems have had a technical ability to be interoperable with other
 systems, just like e-mail is interoperable across systems, but have
@@ -433,7 +433,7 @@ Internet systems should be built.
 
 Often this relates to how centralized or distributed deployments are
 targeted. And even if a distributed, broad deployment model is
-targeted, he expectations may not match reality when economies of
+targeted, expectations may not match reality when economies of
 scale, DDoS resilience, market consolidation, or other factors have
 come into play. These factors can result in the deployed reality being
 highly concentrated.
@@ -443,10 +443,10 @@ deployment models present risks to user choice, privacy, and future
 protocol evolution. On occasion, the differences to expectations can
 be immediate, but can also occur much later.
 
-Some examples of these issue include current work in DNS where we may
+Some examples of these issues include current work in DNS where we may
 see concentration through the use of globally available common
 resolver services, which evolve rapidly and can offer better
-security. But the concentration of these queries into few services
+security. But the concentration of these queries into a few services
 creates new security and privacy concerns.
 
 Another example is email, which started out as many providers running
@@ -458,10 +458,9 @@ additional consolidation.
 
 Awareness of these issues while working on standards would be useful,
 so that the issues can be taken into account and appropriately
-mitigated. To begin with, those of us Interested in the broader
-questions about Internet development and Internet researchers are
-needed to identify some of the effects that new technology
-developments may pose. 
+mitigated. To begin with, those of us interested in the broader
+questions about Internet research and development are needed to
+identify some of the effects that new technology developments may pose. 
 
 ## Open Source {#opensource}
 
@@ -470,28 +469,28 @@ end-user applications (e.g., browsers) and technology components
 (e.g., operating systems or protocol implementations) are commonly
 implemented using open source solutions.
 
-This is often true even if there's a large entity that is in charge of
-large fraction of development and deployment for a particular
-technology. This is a good thing, as it ensures that others have a
-fair chance of changing the technology in question, should the large
+This is often true even if there is a large entity that is in charge of
+a large fraction of development and deployment for a particular
+technology. This is a good thing, as it provides a means for others to have
+a fair chance of changing the technology in question, should the large
 entity drive their use of the technology in some direction that does
 not benefit the users. For instance, users and other organizations have
 traditionally been able to either run their own browser versions or
 provided extensions that suit their needs better than the default
 system.
 
-As a result, continuing to have this ecosystem is important
+As a result, continuing to have this ecosystem is an important
 safety valve and competition opportunity.
 
 ## Research Challenges {#research}
 
-There are number of different research directions for which further work would be useful.
+There are a number of different research directions for which further work would be useful.
 
-The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are Internet's traffic flows concentrating, and how is this changing over time?
+The first is about measurements; is the Internet indeed consolidating, and if so, by how much, and in what aspects? Also, where are the Internet's traffic flows concentrating, and how is this changing over time?
 
-There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how Internet consolidation influences the development of the Internet infrastructure and architecture?
+There are also questions about the trends and their relationships to technology: Has Internet technology influenced the consolidation trends in some manner?  And conversely, how does Internet consolidation influence the development of Internet infrastructure and architecture?
 
-Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an Interesting topic.
+Finally, research on topics that would likely yield results that increase the diversity and de-centralization in the Internet would obviously be welcome. This can include any de-centralized technologies, but in particular distributed Internet architecture is an interesting topic.
 
 # Contributors
 
