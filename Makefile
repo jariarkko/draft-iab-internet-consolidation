@@ -15,6 +15,8 @@ cleantrash:
 
 diff:	draft-arkko-internet-consolidation.txt
 	rfcdiff draft-arkko-internet-consolidation-00.txt draft-arkko-internet-consolidation.txt
+	rfcdiff draft-arkko-iab-internet-consolidation-01.txt draft-arkko-internet-consolidation.txt
+	cp draft-arkko-internet-consolidation-from-ab-internet-consolidation-01.diff.html draft-arkko-internet-consolidation-from--01.diff.html
 
 copycompile:
 	ssh jar@arkko.eu 'rm -rf draft-iab-internet-consolidation'
@@ -26,4 +28,5 @@ copycompile:
 	scp draft-arkko-internet-consolidation.txt \
 		draft-arkko-internet-consolidation.html \
 		draft-arkko-internet-consolidation-from--00.diff.html \
+		draft-arkko-internet-consolidation-from--01.diff.html \
 		jar@cloud1.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
