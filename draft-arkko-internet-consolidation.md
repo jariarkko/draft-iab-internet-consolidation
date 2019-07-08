@@ -498,4 +498,4 @@ Much of the text in this memo is from a blog article written by Jari Arkko, Mark
 
 # Acknowledgements
 
-The authors would like to thank IAB members, Geoff Huston, Amelia Andersdotter, Gonzalo Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, and many others for interesting discussions in this problem space.
+The authors would like to thank IAB members, Geoff Huston, Amelia Andersdotter, Gonzalo Camarillo, Mirjam Kuehne, Robert Mitchell, Olaf Kolkman, Greg Skinner and many others for interesting discussions in this problem space. The authors would also like to thank all members of the 2019 Design Expectations vs. Deployment Reality (DEDR) IAB workshop held in Kirkkonummi, Finland.
